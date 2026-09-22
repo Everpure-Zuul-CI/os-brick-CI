@@ -1,0 +1,15 @@
+Sep 22 15:03:54.822374 np0000045190 systemd[1]: Started devstack@n-novnc-cell1.service - Devstack devstack@n-novnc-cell1.service.
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]: /opt/stack/nova/nova/monkey_patch.py:85: EventletDeprecationWarning:
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]: Eventlet is deprecated. It is currently being maintained in bugfix mode, and
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]: we strongly recommend against using it for new projects.
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]: If you are already using Eventlet, we recommend migrating to a different
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]: framework.  For more detail see
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]: https://eventlet.readthedocs.io/en/latest/asyncio/migration.html
+Sep 22 15:03:55.060655 np0000045190 nova-novncproxy[76081]:   import eventlet  # noqa
+Sep 22 15:03:55.149095 np0000045190 nova-novncproxy[76081]: 1 RLock(s) were not greened, to fix this error make sure you run eventlet.monkey_patch() before importing any other modules.
+Sep 22 15:03:55.189677 np0000045190 nova-novncproxy[76081]: Eventlet based concurrency mode is deprecated and will be removed in a future release, not earlier than 2027.2. Please migrate to native threading mode. See the concurrency guide for details: https://docs.openstack.org/nova/latest/admin/concurrency.html
+Sep 22 15:03:56.043657 np0000045190 nova-novncproxy[76081]: INFO nova.console.websocketproxy [-] WebSocket server settings:
+Sep 22 15:03:56.043761 np0000045190 nova-novncproxy[76081]: INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+Sep 22 15:03:56.043833 np0000045190 nova-novncproxy[76081]: INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+Sep 22 15:03:56.043905 np0000045190 nova-novncproxy[76081]: INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+Sep 22 15:03:56.044171 np0000045190 nova-novncproxy[76081]: INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
