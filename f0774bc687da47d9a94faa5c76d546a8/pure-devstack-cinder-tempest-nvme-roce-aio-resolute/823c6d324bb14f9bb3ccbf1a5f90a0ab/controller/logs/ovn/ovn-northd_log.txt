@@ -1,0 +1,62 @@
+2026-09-22T15:54:09.027Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2026-09-22T15:54:09.028Z|00002|ovn_northd|INFO|OVN internal version is : [26.03.0-21.8.0-82.13]
+2026-09-22T15:54:09.028Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2026-09-22T15:54:09.028Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2026-09-22T15:54:09.028Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2026-09-22T15:54:09.028Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2026-09-22T15:54:09.028Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2026-09-22T15:54:09.028Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2026-09-22T15:54:09.029Z|00009|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2026-09-22T15:54:09.032Z|00010|memory_trim|INFO|Detected inactivity (last active 0 ms ago): trimming memory
+2026-09-22T15:54:39.063Z|00011|memory|INFO|8516 kB peak resident set size after 30.0 seconds
+2026-09-22T15:54:39.063Z|00012|memory|INFO|idl-cells-OVN_Northbound:12 idl-cells-OVN_Southbound:189
+2026-09-22T15:54:39.063Z|00013|memory_trim|INFO|Detected inactivity (last active 30029 ms ago): trimming memory
+2026-09-22T15:57:34.986Z|00014|ovn_parallel_hmap|INFO|Setting thread count to 0
+2026-09-22T15:57:35.371Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-northd.log
+2026-09-22T15:57:35.372Z|00002|ovn_northd|INFO|OVN internal version is : [26.03.0-21.8.0-82.13]
+2026-09-22T15:57:35.372Z|00003|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2026-09-22T15:57:35.372Z|00004|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connection attempt failed (No such file or directory)
+2026-09-22T15:57:35.372Z|00005|ovn_northd|INFO|OVN NB IDL reconnected, force recompute.
+2026-09-22T15:57:35.372Z|00006|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2026-09-22T15:57:35.372Z|00007|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connection attempt failed (No such file or directory)
+2026-09-22T15:57:35.372Z|00008|ovn_northd|INFO|OVN SB IDL reconnected, force recompute.
+2026-09-22T15:57:36.372Z|00009|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connecting...
+2026-09-22T15:57:36.372Z|00010|reconnect|INFO|unix:/var/run/ovn/ovnnb_db.sock: connected
+2026-09-22T15:57:36.373Z|00011|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connecting...
+2026-09-22T15:57:36.373Z|00012|reconnect|INFO|unix:/var/run/ovn/ovnsb_db.sock: connected
+2026-09-22T15:57:36.373Z|00013|ovn_northd|INFO|ovn-northd lock acquired. This ovn-northd instance is now active.
+2026-09-22T15:57:45.402Z|00014|memory|INFO|8468 kB peak resident set size after 10.0 seconds
+2026-09-22T15:57:45.402Z|00015|memory|INFO|idl-cells-OVN_Northbound:61 idl-cells-OVN_Southbound:227
+2026-09-22T16:17:50.302Z|00016|memory_trim|INFO|Detected inactivity (last active 30023 ms ago): trimming memory
+2026-09-22T16:22:45.863Z|00017|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2026-09-22T16:22:51.648Z|00018|timeval|WARN|Unreasonably long 5785ms poll interval (0ms user, 5785ms system)
+2026-09-22T16:22:51.648Z|00019|timeval|WARN|disk: 0 reads, 8 writes
+2026-09-22T16:22:51.648Z|00020|timeval|WARN|context switches: 0 voluntary, 1 involuntary
+2026-09-22T16:22:51.648Z|00021|coverage|INFO|Event coverage, avg rate over last: 5 seconds, last minute, last hour,  hash=7643b6e9:
+2026-09-22T16:22:51.648Z|00022|coverage|INFO|util_xalloc              300.8/sec   324.983/sec     4631.6225/sec   total: 16673841
+2026-09-22T16:22:51.648Z|00023|coverage|INFO|stream_open                0.0/sec     0.000/sec        0.0011/sec   total: 4
+2026-09-22T16:22:51.648Z|00024|coverage|INFO|pstream_open               0.0/sec     0.000/sec        0.0003/sec   total: 1
+2026-09-22T16:22:51.648Z|00025|coverage|INFO|seq_change                 0.4/sec     2.983/sec       43.7608/sec   total: 157539
+2026-09-22T16:22:51.648Z|00026|coverage|INFO|poll_zero_timeout          0.0/sec     0.000/sec        0.0061/sec   total: 22
+2026-09-22T16:22:51.648Z|00027|coverage|INFO|poll_create_node           1.6/sec     6.300/sec       90.6833/sec   total: 326460
+2026-09-22T16:22:51.648Z|00028|coverage|INFO|txn_success                0.8/sec     0.083/sec        0.7625/sec   total: 2745
+2026-09-22T16:22:51.648Z|00029|coverage|INFO|txn_incomplete             0.6/sec     0.067/sec        0.8975/sec   total: 3231
+2026-09-22T16:22:51.648Z|00030|coverage|INFO|txn_unchanged              1.4/sec     0.267/sec        2.2633/sec   total: 8148
+2026-09-22T16:22:51.648Z|00031|coverage|INFO|hmap_reserve               1.2/sec     0.133/sec        7.7022/sec   total: 27728
+2026-09-22T16:22:51.648Z|00032|coverage|INFO|hmap_expand                9.2/sec    11.300/sec      109.4764/sec   total: 394115
+2026-09-22T16:22:51.648Z|00033|coverage|INFO|hmap_pathological          0.4/sec     0.033/sec        3.0811/sec   total: 11092
+2026-09-22T16:22:51.648Z|00034|coverage|INFO|northd_run                 0.0/sec     0.000/sec        0.3600/sec   total: 1296
+2026-09-22T16:22:51.648Z|00035|coverage|INFO|124 events never hit
+2026-09-22T16:22:52.314Z|00036|poll_loop|INFO|wakeup due to [POLLIN] on fd 18 (<->/var/run/ovn/ovnsb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.318Z|00037|poll_loop|INFO|wakeup due to [POLLIN] on fd 18 (<->/var/run/ovn/ovnsb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.319Z|00038|poll_loop|INFO|wakeup due to [POLLIN] on fd 17 (<->/var/run/ovn/ovnnb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.322Z|00039|poll_loop|INFO|wakeup due to [POLLIN] on fd 18 (<->/var/run/ovn/ovnsb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.465Z|00040|poll_loop|INFO|wakeup due to [POLLIN] on fd 17 (<->/var/run/ovn/ovnnb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.466Z|00041|poll_loop|INFO|wakeup due to [POLLIN] on fd 18 (<->/var/run/ovn/ovnsb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.527Z|00042|poll_loop|INFO|wakeup due to [POLLIN] on fd 17 (<->/var/run/ovn/ovnnb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.528Z|00043|poll_loop|INFO|wakeup due to [POLLIN] on fd 18 (<->/var/run/ovn/ovnsb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.528Z|00044|poll_loop|INFO|wakeup due to [POLLIN] on fd 17 (<->/var/run/ovn/ovnnb_db.sock) at lib/stream-fd.c:157 (90% CPU usage)
+2026-09-22T16:22:52.528Z|00045|poll_loop|INFO|wakeup due to 0-ms timeout at northd/ovn-northd.c:1092 (90% CPU usage)
+2026-09-22T16:25:54.831Z|00046|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
+2026-09-22T16:27:03.565Z|00047|memory_trim|INFO|Detected inactivity (last active 30023 ms ago): trimming memory
+2026-09-22T16:28:42.183Z|00048|memory_trim|INFO|Detected inactivity (last active 30030 ms ago): trimming memory
