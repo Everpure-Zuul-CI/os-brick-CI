@@ -1,0 +1,12 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit no-arp-spoofing
+or other application using the libvirt API.
+-->
+
+<filter name='no-arp-spoofing' chain='root'>
+  <uuid>8f3e1da4-6c12-443c-8945-726e20564d73</uuid>
+  <filterref filter='no-arp-mac-spoofing'/>
+  <filterref filter='no-arp-ip-spoofing'/>
+</filter>
