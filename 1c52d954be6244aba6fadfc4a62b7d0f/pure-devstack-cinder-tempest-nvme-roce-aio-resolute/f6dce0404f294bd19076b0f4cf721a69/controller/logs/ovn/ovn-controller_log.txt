@@ -1,0 +1,1064 @@
+2026-10-02T17:59:52.929Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-controller.log
+2026-10-02T17:59:52.930Z|00002|vif_plug_representor|INFO|devlink port update: flavour=5 bus=auxiliary dev=mlx5_core.eth.0 number=4294967295 pci_pf=65535 pci_vf=65535 netdev=enp6s0 ifindex=4 mac=00:00:00:00:00:00
+2026-10-02T17:59:52.930Z|00003|vif_plug_representor|WARN|Unsupported flavour for port 'enp6s0': VIRTUAL
+2026-10-02T17:59:52.931Z|00004|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2026-10-02T17:59:52.931Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2026-10-02T17:59:52.933Z|00006|main|INFO|OVN internal version is : [26.03.0-21.8.0-82.13]
+2026-10-02T17:59:52.933Z|00007|main|INFO|OVS IDL reconnected, force recompute.
+2026-10-02T17:59:52.933Z|00008|main|INFO|OVNSB IDL reconnected, force recompute.
+2026-10-02T17:59:52.934Z|00009|main|INFO|Setting flow table prefixes: ip_src, ip_dst, ipv6_src, ipv6_dst.
+2026-10-02T17:59:52.934Z|00010|ovn_util|INFO|statctrl: connecting to switch: "unix:/var/run/openvswitch/br-int.mgmt"
+2026-10-02T17:59:52.934Z|00011|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T17:59:52.934Z|00012|rconn|WARN|unix:/var/run/openvswitch/br-int.mgmt: connection failed (No such file or directory)
+2026-10-02T17:59:52.934Z|00013|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: waiting 1 seconds before reconnect
+2026-10-02T17:59:52.934Z|00014|ovn_util|INFO|pinctrl: connecting to switch: "unix:/var/run/openvswitch/br-int.mgmt"
+2026-10-02T17:59:52.934Z|00015|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T17:59:52.934Z|00016|rconn|WARN|unix:/var/run/openvswitch/br-int.mgmt: connection failed (No such file or directory)
+2026-10-02T17:59:52.934Z|00017|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: waiting 1 seconds before reconnect
+2026-10-02T17:59:53.935Z|00001|rconn(ovn_statctrl3)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T17:59:53.935Z|00001|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T17:59:53.935Z|00002|rconn(ovn_statctrl3)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T17:59:53.936Z|00002|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:03.208Z|00003|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connection closed by peer
+2026-10-02T18:03:03.208Z|00003|rconn(ovn_statctrl3)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connection closed by peer
+2026-10-02T18:03:03.344Z|00018|memory|INFO|10000 kB peak resident set size after 190.4 seconds
+2026-10-02T18:03:03.344Z|00019|memory|INFO|idl-cells-Open_vSwitch:107
+2026-10-02T18:03:03.344Z|00020|jsonrpc|WARN|unix:/var/run/openvswitch/db.sock: send error: Broken pipe
+2026-10-02T18:03:03.344Z|00021|reconnect|WARN|unix:/var/run/openvswitch/db.sock: connection dropped (Broken pipe)
+2026-10-02T18:03:04.208Z|00004|rconn(ovn_statctrl3)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T18:03:04.208Z|00004|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T18:03:04.209Z|00005|rconn(ovn_statctrl3)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:04.209Z|00005|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:04.344Z|00022|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2026-10-02T18:03:04.344Z|00023|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2026-10-02T18:03:04.348Z|00024|reconnect|INFO|ssl:192.168.1.148:6642: connecting...
+2026-10-02T18:03:04.348Z|00025|reconnect|INFO|ssl:192.168.1.148:6642: connection attempt failed (Connection refused)
+2026-10-02T18:03:05.349Z|00026|reconnect|INFO|ssl:192.168.1.148:6642: connecting...
+2026-10-02T18:03:05.350Z|00027|reconnect|INFO|ssl:192.168.1.148:6642: connection attempt failed (Connection refused)
+2026-10-02T18:03:05.350Z|00028|reconnect|INFO|ssl:192.168.1.148:6642: waiting 2 seconds before reconnect
+2026-10-02T18:03:06.081Z|00029|main|INFO|Exiting ovn-controller, resource cleanup: True
+2026-10-02T18:03:06.237Z|00001|vlog|INFO|opened log file /var/log/ovn/ovn-controller.log
+2026-10-02T18:03:06.238Z|00002|vif_plug_representor|INFO|devlink port update: flavour=5 bus=auxiliary dev=mlx5_core.eth.0 number=4294967295 pci_pf=65535 pci_vf=65535 netdev=enp6s0 ifindex=4 mac=00:00:00:00:00:00
+2026-10-02T18:03:06.238Z|00003|vif_plug_representor|WARN|Unsupported flavour for port 'enp6s0': VIRTUAL
+2026-10-02T18:03:06.239Z|00004|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2026-10-02T18:03:06.239Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2026-10-02T18:03:06.241Z|00006|main|INFO|OVN internal version is : [26.03.0-21.8.0-82.13]
+2026-10-02T18:03:06.241Z|00007|main|INFO|OVS IDL reconnected, force recompute.
+2026-10-02T18:03:06.244Z|00008|reconnect|INFO|ssl:192.168.1.148:6642: connecting...
+2026-10-02T18:03:06.244Z|00009|main|INFO|OVNSB IDL reconnected, force recompute.
+2026-10-02T18:03:06.244Z|00010|ovn_util|INFO|statctrl: connecting to switch: "unix:/var/run/openvswitch/br-int.mgmt"
+2026-10-02T18:03:06.244Z|00011|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T18:03:06.244Z|00012|ovn_util|INFO|pinctrl: connecting to switch: "unix:/var/run/openvswitch/br-int.mgmt"
+2026-10-02T18:03:06.244Z|00013|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T18:03:06.244Z|00001|rconn(ovn_statctrl3)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:06.244Z|00001|rconn(ovn_pinctrl0)|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:06.247Z|00014|reconnect|INFO|ssl:192.168.1.148:6642: connected
+2026-10-02T18:03:06.250Z|00015|ovn_util|INFO|features: connecting to switch: "unix:/var/run/openvswitch/br-int.mgmt"
+2026-10-02T18:03:06.250Z|00016|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T18:03:06.250Z|00017|features|INFO|OVS Feature: ct_zero_snat, state: supported
+2026-10-02T18:03:06.250Z|00018|features|INFO|OVS Feature: ct_flush, state: supported
+2026-10-02T18:03:06.250Z|00019|features|INFO|OVS Feature: dp_hash_l4_sym_support, state: supported
+2026-10-02T18:03:06.250Z|00020|main|INFO|OVS feature set changed, force recompute.
+2026-10-02T18:03:06.250Z|00021|ovn_util|INFO|ofctrl: connecting to switch: "unix:/var/run/openvswitch/br-int.mgmt"
+2026-10-02T18:03:06.250Z|00022|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connecting...
+2026-10-02T18:03:06.250Z|00023|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:06.250Z|00024|main|INFO|OVS OpenFlow connection reconnected,force recompute.
+2026-10-02T18:03:06.250Z|00025|rconn|INFO|unix:/var/run/openvswitch/br-int.mgmt: connected
+2026-10-02T18:03:06.251Z|00026|features|INFO|OVS Feature: meter_support, state: supported
+2026-10-02T18:03:06.251Z|00027|features|INFO|OVS Feature: group_support, state: supported
+2026-10-02T18:03:06.251Z|00028|features|INFO|OVS Feature: sample_action_with_registers, state: supported
+2026-10-02T18:03:06.251Z|00029|main|INFO|OVS feature set changed, force recompute.
+2026-10-02T18:03:06.263Z|00030|features|INFO|OVS Feature: ct_label_flush, state: supported
+2026-10-02T18:03:06.263Z|00031|main|INFO|OVS feature set changed, force recompute.
+2026-10-02T18:03:16.757Z|00032|memory|INFO|12480 kB peak resident set size after 10.5 seconds
+2026-10-02T18:03:16.757Z|00033|memory|INFO|idl-cells-OVN_Southbound:227 idl-cells-Open_vSwitch:191 ofctrl_desired_flow_usage-KB:6 ofctrl_installed_flow_usage-KB:4 ofctrl_sb_flow_ref_usage-KB:2
+2026-10-02T18:03:21.848Z|00034|binding|INFO|Claiming lport cr-lrp-0efb2ae1-67db-4bcc-90de-c25abd2f8740 for this chassis.
+2026-10-02T18:03:21.848Z|00035|binding|INFO|cr-lrp-0efb2ae1-67db-4bcc-90de-c25abd2f8740: Claiming fa:16:3e:14:90:93 172.24.5.136/24
+2026-10-02T18:03:21.852Z|00036|binding|INFO|Setting lport cr-lrp-0efb2ae1-67db-4bcc-90de-c25abd2f8740 up in Southbound
+2026-10-02T18:03:54.089Z|00037|memory_trim|INFO|Detected inactivity (last active 30001 ms ago): trimming memory
+2026-10-02T18:04:28.560Z|00038|memory_trim|INFO|Detected inactivity (last active 30003 ms ago): trimming memory
+2026-10-02T18:04:45.210Z|00039|binding|INFO|Claiming lport cr-lrp-b78c7c2b-e8be-47bc-bb4d-eeca6890e998 for this chassis.
+2026-10-02T18:04:45.210Z|00040|binding|INFO|cr-lrp-b78c7c2b-e8be-47bc-bb4d-eeca6890e998: Claiming fa:16:3e:88:33:5a 172.24.5.119/24 2001:db8::2fb/64
+2026-10-02T18:04:45.213Z|00041|binding|INFO|Setting lport cr-lrp-b78c7c2b-e8be-47bc-bb4d-eeca6890e998 up in Southbound
+2026-10-02T18:04:45.318Z|00042|binding|INFO|Claiming lport cr-lrp-e103257b-bdf6-4df8-9a69-dd97f6ecc487 for this chassis.
+2026-10-02T18:04:45.318Z|00043|binding|INFO|cr-lrp-e103257b-bdf6-4df8-9a69-dd97f6ecc487: Claiming fa:16:3e:fc:a3:5d 172.24.5.67/24 2001:db8::113/64
+2026-10-02T18:04:45.323Z|00044|binding|INFO|Setting lport cr-lrp-e103257b-bdf6-4df8-9a69-dd97f6ecc487 up in Southbound
+2026-10-02T18:04:47.978Z|00045|binding|INFO|Claiming lport cr-lrp-de5ae404-5a53-4db9-b19a-7b4261e3603e for this chassis.
+2026-10-02T18:04:47.978Z|00046|binding|INFO|cr-lrp-de5ae404-5a53-4db9-b19a-7b4261e3603e: Claiming fa:16:3e:6c:96:91 172.24.5.157/24 2001:db8::2d5/64
+2026-10-02T18:04:47.983Z|00047|binding|INFO|Setting lport cr-lrp-de5ae404-5a53-4db9-b19a-7b4261e3603e up in Southbound
+2026-10-02T18:04:48.142Z|00048|binding|INFO|Claiming lport cr-lrp-ac188832-408e-4e06-8080-9cdca99a957a for this chassis.
+2026-10-02T18:04:48.142Z|00049|binding|INFO|cr-lrp-ac188832-408e-4e06-8080-9cdca99a957a: Claiming fa:16:3e:84:fd:52 172.24.5.218/24 2001:db8::2cd/64
+2026-10-02T18:04:48.147Z|00050|binding|INFO|Setting lport cr-lrp-ac188832-408e-4e06-8080-9cdca99a957a up in Southbound
+2026-10-02T18:04:50.464Z|00051|binding|INFO|Claiming lport cr-lrp-64ce01f3-3c86-4f43-8a50-b7781c9bdfbd for this chassis.
+2026-10-02T18:04:50.464Z|00052|binding|INFO|cr-lrp-64ce01f3-3c86-4f43-8a50-b7781c9bdfbd: Claiming fa:16:3e:3e:e7:33 172.24.5.132/24 2001:db8::1dd/64
+2026-10-02T18:04:50.469Z|00053|binding|INFO|Setting lport cr-lrp-64ce01f3-3c86-4f43-8a50-b7781c9bdfbd up in Southbound
+2026-10-02T18:04:51.479Z|00054|memory|INFO|peak resident set size grew 63% in last 94.7 seconds, from 12480 kB to 20288 kB
+2026-10-02T18:04:51.479Z|00055|memory|INFO|idl-cells-OVN_Southbound:10502 idl-cells-Open_vSwitch:305 if_status_mgr_ifaces_state_usage-KB:1 if_status_mgr_ifaces_usage-KB:1 lflow-cache-entries-cache-expr:484 lflow-cache-entries-cache-matches:256 lflow-cache-size-KB:2329 local_datapath_usage-KB:3 ofctrl_desired_flow_usage-KB:639 ofctrl_installed_flow_usage-KB:480 ofctrl_sb_flow_ref_usage-KB:228
+2026-10-02T18:04:53.106Z|00056|binding|INFO|Claiming lport cr-lrp-0869e7de-b2b0-4ad0-8e8d-ea75904c6bfd for this chassis.
+2026-10-02T18:04:53.106Z|00057|binding|INFO|cr-lrp-0869e7de-b2b0-4ad0-8e8d-ea75904c6bfd: Claiming fa:16:3e:7b:92:cf 172.24.5.48/24 2001:db8::4a/64
+2026-10-02T18:04:53.113Z|00058|binding|INFO|Setting lport cr-lrp-0869e7de-b2b0-4ad0-8e8d-ea75904c6bfd up in Southbound
+2026-10-02T18:04:58.003Z|00059|binding|INFO|Claiming lport e2ebd6f9-3444-49b2-97fc-a7c4c51df6ca for this chassis.
+2026-10-02T18:04:58.003Z|00060|binding|INFO|e2ebd6f9-3444-49b2-97fc-a7c4c51df6ca: Claiming fa:16:3e:cf:07:3f 10.1.0.5
+2026-10-02T18:04:58.011Z|00061|binding|INFO|Setting lport e2ebd6f9-3444-49b2-97fc-a7c4c51df6ca ovn-installed in OVS
+2026-10-02T18:04:58.011Z|00062|binding|INFO|Setting lport e2ebd6f9-3444-49b2-97fc-a7c4c51df6ca up in Southbound
+2026-10-02T18:04:58.013Z|00063|binding|INFO|Claiming lport 2638eb9f-d73f-4993-827d-4563c97996c2 for this chassis.
+2026-10-02T18:04:58.013Z|00064|binding|INFO|2638eb9f-d73f-4993-827d-4563c97996c2: Claiming fa:16:3e:a6:cb:f9 10.1.0.8
+2026-10-02T18:04:58.018Z|00065|binding|INFO|Setting lport 2638eb9f-d73f-4993-827d-4563c97996c2 ovn-installed in OVS
+2026-10-02T18:04:58.018Z|00066|binding|INFO|Setting lport 2638eb9f-d73f-4993-827d-4563c97996c2 up in Southbound
+2026-10-02T18:05:00.064Z|00067|binding|INFO|Releasing lport ebec136f-47af-4197-953a-8bf59f5dae4f from this chassis (sb_readonly=0)
+2026-10-02T18:05:00.495Z|00068|binding|INFO|Releasing lport cf8f789f-c2c6-41d0-8107-acc7ca4c1086 from this chassis (sb_readonly=0)
+2026-10-02T18:05:02.401Z|00069|binding|INFO|Releasing lport 2638eb9f-d73f-4993-827d-4563c97996c2 from this chassis (sb_readonly=0)
+2026-10-02T18:05:02.401Z|00070|binding|INFO|Setting lport 2638eb9f-d73f-4993-827d-4563c97996c2 down in Southbound
+2026-10-02T18:05:02.402Z|00071|binding|INFO|Removing iface tap2638eb9f-d7 ovn-installed in OVS
+2026-10-02T18:05:04.738Z|00072|binding|INFO|Releasing lport ebec136f-47af-4197-953a-8bf59f5dae4f from this chassis (sb_readonly=0)
+2026-10-02T18:05:06.458Z|00073|binding|INFO|Releasing lport ebec136f-47af-4197-953a-8bf59f5dae4f from this chassis (sb_readonly=0)
+2026-10-02T18:05:08.172Z|00074|binding|INFO|Releasing lport ebec136f-47af-4197-953a-8bf59f5dae4f from this chassis (sb_readonly=0)
+2026-10-02T18:05:10.930Z|00002|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:cf:07:3f 10.1.0.5
+2026-10-02T18:05:10.941Z|00003|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:cf:07:3f 10.1.0.5
+2026-10-02T18:05:11.234Z|00075|binding|INFO|Claiming lport cr-lrp-bda12265-852d-4dc4-99a2-e3d440cb5494 for this chassis.
+2026-10-02T18:05:11.234Z|00076|binding|INFO|cr-lrp-bda12265-852d-4dc4-99a2-e3d440cb5494: Claiming fa:16:3e:7a:bf:c7 172.24.5.20/24 2001:db8::341/64
+2026-10-02T18:05:11.243Z|00077|binding|INFO|Setting lport cr-lrp-bda12265-852d-4dc4-99a2-e3d440cb5494 up in Southbound
+2026-10-02T18:05:14.033Z|00078|binding|INFO|Claiming lport da52425e-c1f3-4c10-8d15-8ac7d19b3423 for this chassis.
+2026-10-02T18:05:14.033Z|00079|binding|INFO|da52425e-c1f3-4c10-8d15-8ac7d19b3423: Claiming fa:16:3e:ce:0e:d9 10.1.0.12
+2026-10-02T18:05:14.039Z|00080|binding|INFO|Setting lport da52425e-c1f3-4c10-8d15-8ac7d19b3423 ovn-installed in OVS
+2026-10-02T18:05:14.039Z|00081|binding|INFO|Setting lport da52425e-c1f3-4c10-8d15-8ac7d19b3423 up in Southbound
+2026-10-02T18:05:14.303Z|00082|binding|INFO|Releasing lport 3b47e82e-c586-4beb-905c-53b349b09b2b from this chassis (sb_readonly=0)
+2026-10-02T18:05:22.082Z|00083|binding|INFO|Releasing lport da52425e-c1f3-4c10-8d15-8ac7d19b3423 from this chassis (sb_readonly=0)
+2026-10-02T18:05:22.082Z|00084|binding|INFO|Setting lport da52425e-c1f3-4c10-8d15-8ac7d19b3423 down in Southbound
+2026-10-02T18:05:22.083Z|00085|binding|INFO|Removing iface tapda52425e-c1 ovn-installed in OVS
+2026-10-02T18:05:25.625Z|00086|binding|INFO|Releasing lport ebec136f-47af-4197-953a-8bf59f5dae4f from this chassis (sb_readonly=0)
+2026-10-02T18:05:27.653Z|00087|binding|INFO|Claiming lport cr-lrp-15db9886-bba0-41e7-97fe-e54afa854664 for this chassis.
+2026-10-02T18:05:27.653Z|00088|binding|INFO|cr-lrp-15db9886-bba0-41e7-97fe-e54afa854664: Claiming fa:16:3e:a7:4c:02 172.24.5.27/24 2001:db8::3de/64
+2026-10-02T18:05:27.659Z|00089|binding|INFO|Setting lport cr-lrp-15db9886-bba0-41e7-97fe-e54afa854664 up in Southbound
+2026-10-02T18:05:27.881Z|00090|binding|INFO|Releasing lport e2ebd6f9-3444-49b2-97fc-a7c4c51df6ca from this chassis (sb_readonly=0)
+2026-10-02T18:05:27.881Z|00091|binding|INFO|Setting lport e2ebd6f9-3444-49b2-97fc-a7c4c51df6ca down in Southbound
+2026-10-02T18:05:27.884Z|00092|binding|INFO|Removing iface tape2ebd6f9-34 ovn-installed in OVS
+2026-10-02T18:05:30.516Z|00093|binding|INFO|Claiming lport cr-lrp-d10867d6-75f9-4493-b074-11555e98a9b1 for this chassis.
+2026-10-02T18:05:30.516Z|00094|binding|INFO|cr-lrp-d10867d6-75f9-4493-b074-11555e98a9b1: Claiming fa:16:3e:90:8e:09 172.24.5.139/24 2001:db8::3c7/64
+2026-10-02T18:05:30.524Z|00095|binding|INFO|Setting lport cr-lrp-d10867d6-75f9-4493-b074-11555e98a9b1 up in Southbound
+2026-10-02T18:05:36.715Z|00096|binding|INFO|Claiming lport 2e28d67e-776d-45c1-91ab-40723a21137d for this chassis.
+2026-10-02T18:05:36.715Z|00097|binding|INFO|2e28d67e-776d-45c1-91ab-40723a21137d: Claiming fa:16:3e:d3:ef:8b 10.1.0.6
+2026-10-02T18:05:36.726Z|00098|binding|INFO|Setting lport 2e28d67e-776d-45c1-91ab-40723a21137d ovn-installed in OVS
+2026-10-02T18:05:36.726Z|00099|binding|INFO|Setting lport 2e28d67e-776d-45c1-91ab-40723a21137d up in Southbound
+2026-10-02T18:05:37.041Z|00100|binding|INFO|Releasing lport efa2f284-8f2f-4b38-a807-63418c16d23d from this chassis (sb_readonly=0)
+2026-10-02T18:05:37.245Z|00101|binding|INFO|Claiming lport cr-lrp-928c3631-9196-49bc-9e63-73676d380bf2 for this chassis.
+2026-10-02T18:05:37.245Z|00102|binding|INFO|cr-lrp-928c3631-9196-49bc-9e63-73676d380bf2: Claiming fa:16:3e:19:c9:f4 172.24.5.2/24 2001:db8::130/64
+2026-10-02T18:05:37.250Z|00103|binding|INFO|Setting lport cr-lrp-928c3631-9196-49bc-9e63-73676d380bf2 up in Southbound
+2026-10-02T18:05:39.828Z|00104|binding|INFO|Claiming lport cr-lrp-0af9931c-4dd3-44c7-a3bb-a7e0a308eb87 for this chassis.
+2026-10-02T18:05:39.828Z|00105|binding|INFO|cr-lrp-0af9931c-4dd3-44c7-a3bb-a7e0a308eb87: Claiming fa:16:3e:66:6d:2c 172.24.5.135/24 2001:db8::2b7/64
+2026-10-02T18:05:39.838Z|00106|binding|INFO|Setting lport cr-lrp-0af9931c-4dd3-44c7-a3bb-a7e0a308eb87 up in Southbound
+2026-10-02T18:05:44.552Z|00107|binding|INFO|Claiming lport 225da112-37f2-4cea-86fe-be9238d22697 for this chassis.
+2026-10-02T18:05:44.552Z|00108|binding|INFO|225da112-37f2-4cea-86fe-be9238d22697: Claiming fa:16:3e:d5:e9:2f 10.1.0.13
+2026-10-02T18:05:44.561Z|00109|binding|INFO|Setting lport 225da112-37f2-4cea-86fe-be9238d22697 ovn-installed in OVS
+2026-10-02T18:05:44.561Z|00110|binding|INFO|Setting lport 225da112-37f2-4cea-86fe-be9238d22697 up in Southbound
+2026-10-02T18:05:44.818Z|00111|binding|INFO|Releasing lport a1d41af9-e615-48bb-b989-de26641df545 from this chassis (sb_readonly=0)
+2026-10-02T18:05:52.510Z|00004|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:d3:ef:8b 10.1.0.6
+2026-10-02T18:05:52.518Z|00005|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:d3:ef:8b 10.1.0.6
+2026-10-02T18:05:59.961Z|00006|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:d5:e9:2f 10.1.0.13
+2026-10-02T18:05:59.970Z|00007|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:d5:e9:2f 10.1.0.13
+2026-10-02T18:06:02.657Z|00112|binding|INFO|Claiming lport c7d126f5-bc41-4b0e-976c-7b35556abcd6 for this chassis.
+2026-10-02T18:06:02.657Z|00113|binding|INFO|c7d126f5-bc41-4b0e-976c-7b35556abcd6: Claiming fa:16:3e:be:b1:23 10.10.10.88
+2026-10-02T18:06:02.671Z|00114|binding|INFO|Setting lport c7d126f5-bc41-4b0e-976c-7b35556abcd6 ovn-installed in OVS
+2026-10-02T18:06:02.671Z|00115|binding|INFO|Setting lport c7d126f5-bc41-4b0e-976c-7b35556abcd6 up in Southbound
+2026-10-02T18:06:02.961Z|00116|binding|INFO|Releasing lport 189a8ae6-02b9-4dcf-9fae-af053937e649 from this chassis (sb_readonly=0)
+2026-10-02T18:06:04.355Z|00008|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:be:b1:23 10.10.10.88
+2026-10-02T18:06:04.362Z|00009|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:be:b1:23 10.10.10.88
+2026-10-02T18:06:10.311Z|00117|binding|INFO|Releasing lport c7d126f5-bc41-4b0e-976c-7b35556abcd6 from this chassis (sb_readonly=0)
+2026-10-02T18:06:10.311Z|00118|binding|INFO|Setting lport c7d126f5-bc41-4b0e-976c-7b35556abcd6 down in Southbound
+2026-10-02T18:06:10.312Z|00119|binding|INFO|Removing iface tapc7d126f5-bc ovn-installed in OVS
+2026-10-02T18:06:11.721Z|00120|binding|INFO|Releasing lport 2e28d67e-776d-45c1-91ab-40723a21137d from this chassis (sb_readonly=0)
+2026-10-02T18:06:11.721Z|00121|binding|INFO|Setting lport 2e28d67e-776d-45c1-91ab-40723a21137d down in Southbound
+2026-10-02T18:06:11.722Z|00122|binding|INFO|Removing iface tap2e28d67e-77 ovn-installed in OVS
+2026-10-02T18:06:13.172Z|00123|binding|INFO|Releasing lport a1d41af9-e615-48bb-b989-de26641df545 from this chassis (sb_readonly=0)
+2026-10-02T18:06:15.816Z|00124|binding|INFO|Releasing lport a1d41af9-e615-48bb-b989-de26641df545 from this chassis (sb_readonly=0)
+2026-10-02T18:06:17.562Z|00125|binding|INFO|Releasing lport a1d41af9-e615-48bb-b989-de26641df545 from this chassis (sb_readonly=0)
+2026-10-02T18:06:19.779Z|00126|binding|INFO|Claiming lport cr-lrp-11dc6af0-6de6-4a9a-9bef-5456bfc55498 for this chassis.
+2026-10-02T18:06:19.779Z|00127|binding|INFO|cr-lrp-11dc6af0-6de6-4a9a-9bef-5456bfc55498: Claiming fa:16:3e:7d:ce:34 172.24.5.25/24 2001:db8::b5/64
+2026-10-02T18:06:19.783Z|00128|binding|INFO|Setting lport cr-lrp-11dc6af0-6de6-4a9a-9bef-5456bfc55498 up in Southbound
+2026-10-02T18:06:20.732Z|00129|binding|INFO|Releasing lport 225da112-37f2-4cea-86fe-be9238d22697 from this chassis (sb_readonly=0)
+2026-10-02T18:06:20.732Z|00130|binding|INFO|Setting lport 225da112-37f2-4cea-86fe-be9238d22697 down in Southbound
+2026-10-02T18:06:20.733Z|00131|binding|INFO|Removing iface tap225da112-37 ovn-installed in OVS
+2026-10-02T18:06:22.782Z|00132|binding|INFO|Claiming lport cr-lrp-afba0e05-d277-4396-bffb-353b6429ca44 for this chassis.
+2026-10-02T18:06:22.782Z|00133|binding|INFO|cr-lrp-afba0e05-d277-4396-bffb-353b6429ca44: Claiming fa:16:3e:f1:fd:8c 172.24.5.61/24 2001:db8::25e/64
+2026-10-02T18:06:22.787Z|00134|binding|INFO|Setting lport cr-lrp-afba0e05-d277-4396-bffb-353b6429ca44 up in Southbound
+2026-10-02T18:06:28.349Z|00135|binding|INFO|Claiming lport cr-lrp-ecec9ed6-949e-4997-b075-27b9b833275a for this chassis.
+2026-10-02T18:06:28.349Z|00136|binding|INFO|cr-lrp-ecec9ed6-949e-4997-b075-27b9b833275a: Claiming fa:16:3e:d3:18:50 172.24.5.56/24 2001:db8::248/64
+2026-10-02T18:06:28.355Z|00137|binding|INFO|Setting lport cr-lrp-ecec9ed6-949e-4997-b075-27b9b833275a up in Southbound
+2026-10-02T18:06:31.757Z|00138|binding|INFO|Claiming lport 7b963c38-f883-433f-8f2f-8095490811df for this chassis.
+2026-10-02T18:06:31.757Z|00139|binding|INFO|7b963c38-f883-433f-8f2f-8095490811df: Claiming fa:16:3e:1f:fa:65 10.1.0.10
+2026-10-02T18:06:31.760Z|00140|binding|INFO|Setting lport 7b963c38-f883-433f-8f2f-8095490811df ovn-installed in OVS
+2026-10-02T18:06:31.761Z|00141|binding|INFO|Setting lport 7b963c38-f883-433f-8f2f-8095490811df up in Southbound
+2026-10-02T18:06:32.041Z|00142|binding|INFO|Releasing lport b7ea34df-6d7a-4ec0-b14e-4ed54cae19b1 from this chassis (sb_readonly=0)
+2026-10-02T18:06:46.065Z|00143|binding|INFO|Claiming lport 317f074b-a037-45f0-a1ac-e22fcccc8313 for this chassis.
+2026-10-02T18:06:46.065Z|00144|binding|INFO|317f074b-a037-45f0-a1ac-e22fcccc8313: Claiming fa:16:3e:f3:bb:81 10.1.0.11
+2026-10-02T18:06:46.071Z|00145|binding|INFO|Setting lport 317f074b-a037-45f0-a1ac-e22fcccc8313 ovn-installed in OVS
+2026-10-02T18:06:46.071Z|00146|binding|INFO|Setting lport 317f074b-a037-45f0-a1ac-e22fcccc8313 up in Southbound
+2026-10-02T18:06:46.092Z|00147|binding|INFO|Claiming lport 4dab4b08-d908-4c22-a9da-389f01e34d2c for this chassis.
+2026-10-02T18:06:46.092Z|00148|binding|INFO|4dab4b08-d908-4c22-a9da-389f01e34d2c: Claiming fa:16:3e:36:53:d6 10.1.1.140
+2026-10-02T18:06:46.109Z|00149|binding|INFO|Setting lport 4dab4b08-d908-4c22-a9da-389f01e34d2c ovn-installed in OVS
+2026-10-02T18:06:46.109Z|00150|binding|INFO|Setting lport 4dab4b08-d908-4c22-a9da-389f01e34d2c up in Southbound
+2026-10-02T18:06:46.123Z|00151|binding|INFO|Claiming lport 5caadc0c-d2f0-4035-a965-1b0cdb01c778 for this chassis.
+2026-10-02T18:06:46.123Z|00152|binding|INFO|5caadc0c-d2f0-4035-a965-1b0cdb01c778: Claiming fa:16:3e:97:bf:41 10.1.1.141
+2026-10-02T18:06:46.125Z|00010|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:1f:fa:65 10.1.0.10
+2026-10-02T18:06:46.131Z|00153|binding|INFO|Setting lport 5caadc0c-d2f0-4035-a965-1b0cdb01c778 ovn-installed in OVS
+2026-10-02T18:06:46.131Z|00154|binding|INFO|Setting lport 5caadc0c-d2f0-4035-a965-1b0cdb01c778 up in Southbound
+2026-10-02T18:06:46.141Z|00011|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:1f:fa:65 10.1.0.10
+2026-10-02T18:06:46.153Z|00155|binding|INFO|Claiming lport da549661-62d1-477d-a9a0-60b827e0295c for this chassis.
+2026-10-02T18:06:46.153Z|00156|binding|INFO|da549661-62d1-477d-a9a0-60b827e0295c: Claiming fa:16:3e:9f:77:12 10.1.1.208
+2026-10-02T18:06:46.161Z|00157|binding|INFO|Setting lport da549661-62d1-477d-a9a0-60b827e0295c ovn-installed in OVS
+2026-10-02T18:06:46.161Z|00158|binding|INFO|Setting lport da549661-62d1-477d-a9a0-60b827e0295c up in Southbound
+2026-10-02T18:06:46.193Z|00159|binding|INFO|Claiming lport 4f2de2b0-46f1-4dbf-b5fe-68974b6530bc for this chassis.
+2026-10-02T18:06:46.193Z|00160|binding|INFO|4f2de2b0-46f1-4dbf-b5fe-68974b6530bc: Claiming fa:16:3e:69:7b:48 10.1.1.210
+2026-10-02T18:06:46.199Z|00161|binding|INFO|Setting lport 4f2de2b0-46f1-4dbf-b5fe-68974b6530bc ovn-installed in OVS
+2026-10-02T18:06:46.199Z|00162|binding|INFO|Setting lport 4f2de2b0-46f1-4dbf-b5fe-68974b6530bc up in Southbound
+2026-10-02T18:06:46.234Z|00163|binding|INFO|Claiming lport 8bc0bcba-164a-481f-aac3-69af36a540c4 for this chassis.
+2026-10-02T18:06:46.234Z|00164|binding|INFO|8bc0bcba-164a-481f-aac3-69af36a540c4: Claiming fa:16:3e:d9:1f:5b 10.2.2.100
+2026-10-02T18:06:46.246Z|00165|binding|INFO|Setting lport 8bc0bcba-164a-481f-aac3-69af36a540c4 up in Southbound
+2026-10-02T18:06:46.247Z|00166|binding|INFO|Setting lport 8bc0bcba-164a-481f-aac3-69af36a540c4 ovn-installed in OVS
+2026-10-02T18:06:46.266Z|00167|binding|INFO|Claiming lport 94260334-8de3-4b2d-9704-3f4c1e1f7d5a for this chassis.
+2026-10-02T18:06:46.266Z|00168|binding|INFO|94260334-8de3-4b2d-9704-3f4c1e1f7d5a: Claiming fa:16:3e:9f:ed:64 10.2.2.200
+2026-10-02T18:06:46.272Z|00169|binding|INFO|Setting lport 94260334-8de3-4b2d-9704-3f4c1e1f7d5a ovn-installed in OVS
+2026-10-02T18:06:46.272Z|00170|binding|INFO|Setting lport 94260334-8de3-4b2d-9704-3f4c1e1f7d5a up in Southbound
+2026-10-02T18:06:46.387Z|00171|binding|INFO|Releasing lport f622f083-e341-4188-b516-3b32ca47ba47 from this chassis (sb_readonly=0)
+2026-10-02T18:06:46.841Z|00172|binding|INFO|Releasing lport c8bf06f0-fee2-4dd8-8e30-4bedea3df28f from this chassis (sb_readonly=0)
+2026-10-02T18:06:47.491Z|00173|binding|INFO|Releasing lport ab8dfc42-811e-488f-a99a-690abf42a266 from this chassis (sb_readonly=0)
+2026-10-02T18:07:00.763Z|00174|binding|INFO|Claiming lport 45cb351e-65f1-4f10-b96c-72305e5606de for this chassis.
+2026-10-02T18:07:00.763Z|00175|binding|INFO|45cb351e-65f1-4f10-b96c-72305e5606de: Claiming fa:16:3e:7e:f0:f0 10.1.0.9
+2026-10-02T18:07:00.777Z|00176|binding|INFO|Setting lport 45cb351e-65f1-4f10-b96c-72305e5606de ovn-installed in OVS
+2026-10-02T18:07:00.777Z|00177|binding|INFO|Setting lport 45cb351e-65f1-4f10-b96c-72305e5606de up in Southbound
+2026-10-02T18:07:03.460Z|00012|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:9f:ed:64 10.2.2.200
+2026-10-02T18:07:03.471Z|00013|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:9f:ed:64 10.2.2.200
+2026-10-02T18:07:03.656Z|00014|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:36:53:d6 10.1.1.140
+2026-10-02T18:07:03.660Z|00015|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:36:53:d6 10.1.1.140
+2026-10-02T18:07:03.843Z|00016|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:f3:bb:81 10.1.0.11
+2026-10-02T18:07:03.847Z|00017|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f3:bb:81 10.1.0.11
+2026-10-02T18:07:03.933Z|00018|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:69:7b:48 10.1.1.210
+2026-10-02T18:07:03.937Z|00019|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:69:7b:48 10.1.1.210
+2026-10-02T18:07:04.188Z|00020|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:9f:77:12 10.1.1.208
+2026-10-02T18:07:04.194Z|00021|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:9f:77:12 10.1.1.208
+2026-10-02T18:07:05.044Z|00022|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:97:bf:41 10.1.1.141
+2026-10-02T18:07:05.048Z|00023|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:97:bf:41 10.1.1.141
+2026-10-02T18:07:05.069Z|00024|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:d9:1f:5b 10.2.2.100
+2026-10-02T18:07:05.075Z|00025|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:d9:1f:5b 10.2.2.100
+2026-10-02T18:07:14.111Z|00026|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:7e:f0:f0 10.1.0.9
+2026-10-02T18:07:14.121Z|00027|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:7e:f0:f0 10.1.0.9
+2026-10-02T18:07:27.873Z|00178|binding|INFO|Releasing lport 317f074b-a037-45f0-a1ac-e22fcccc8313 from this chassis (sb_readonly=0)
+2026-10-02T18:07:27.873Z|00179|binding|INFO|Setting lport 317f074b-a037-45f0-a1ac-e22fcccc8313 down in Southbound
+2026-10-02T18:07:27.874Z|00180|binding|INFO|Removing iface tap317f074b-a0 ovn-installed in OVS
+2026-10-02T18:07:27.918Z|00181|binding|INFO|Releasing lport 4dab4b08-d908-4c22-a9da-389f01e34d2c from this chassis (sb_readonly=0)
+2026-10-02T18:07:27.918Z|00182|binding|INFO|Setting lport 4dab4b08-d908-4c22-a9da-389f01e34d2c down in Southbound
+2026-10-02T18:07:27.919Z|00183|binding|INFO|Removing iface tap4dab4b08-d9 ovn-installed in OVS
+2026-10-02T18:07:27.955Z|00184|binding|INFO|Releasing lport 5caadc0c-d2f0-4035-a965-1b0cdb01c778 from this chassis (sb_readonly=0)
+2026-10-02T18:07:27.955Z|00185|binding|INFO|Setting lport 5caadc0c-d2f0-4035-a965-1b0cdb01c778 down in Southbound
+2026-10-02T18:07:27.956Z|00186|binding|INFO|Removing iface tap5caadc0c-d2 ovn-installed in OVS
+2026-10-02T18:07:27.987Z|00187|binding|INFO|Releasing lport da549661-62d1-477d-a9a0-60b827e0295c from this chassis (sb_readonly=0)
+2026-10-02T18:07:27.987Z|00188|binding|INFO|Setting lport da549661-62d1-477d-a9a0-60b827e0295c down in Southbound
+2026-10-02T18:07:27.988Z|00189|binding|INFO|Removing iface tapda549661-62 ovn-installed in OVS
+2026-10-02T18:07:28.015Z|00190|binding|INFO|Releasing lport 4f2de2b0-46f1-4dbf-b5fe-68974b6530bc from this chassis (sb_readonly=0)
+2026-10-02T18:07:28.015Z|00191|binding|INFO|Setting lport 4f2de2b0-46f1-4dbf-b5fe-68974b6530bc down in Southbound
+2026-10-02T18:07:28.017Z|00192|binding|INFO|Removing iface tap4f2de2b0-46 ovn-installed in OVS
+2026-10-02T18:07:28.041Z|00193|binding|INFO|Releasing lport 8bc0bcba-164a-481f-aac3-69af36a540c4 from this chassis (sb_readonly=0)
+2026-10-02T18:07:28.041Z|00194|binding|INFO|Setting lport 8bc0bcba-164a-481f-aac3-69af36a540c4 down in Southbound
+2026-10-02T18:07:28.042Z|00195|binding|INFO|Removing iface tap8bc0bcba-16 ovn-installed in OVS
+2026-10-02T18:07:28.082Z|00196|binding|INFO|Releasing lport 94260334-8de3-4b2d-9704-3f4c1e1f7d5a from this chassis (sb_readonly=0)
+2026-10-02T18:07:28.082Z|00197|binding|INFO|Setting lport 94260334-8de3-4b2d-9704-3f4c1e1f7d5a down in Southbound
+2026-10-02T18:07:28.083Z|00198|binding|INFO|Removing iface tap94260334-8d ovn-installed in OVS
+2026-10-02T18:07:32.911Z|00199|binding|INFO|Releasing lport b7ea34df-6d7a-4ec0-b14e-4ed54cae19b1 from this chassis (sb_readonly=0)
+2026-10-02T18:07:37.692Z|00200|binding|INFO|Releasing lport b7ea34df-6d7a-4ec0-b14e-4ed54cae19b1 from this chassis (sb_readonly=0)
+2026-10-02T18:07:38.725Z|00201|binding|INFO|Releasing lport 45cb351e-65f1-4f10-b96c-72305e5606de from this chassis (sb_readonly=0)
+2026-10-02T18:07:38.725Z|00202|binding|INFO|Setting lport 45cb351e-65f1-4f10-b96c-72305e5606de down in Southbound
+2026-10-02T18:07:38.725Z|00203|binding|INFO|Removing iface tap45cb351e-65 ovn-installed in OVS
+2026-10-02T18:07:39.262Z|00204|binding|INFO|Releasing lport b7ea34df-6d7a-4ec0-b14e-4ed54cae19b1 from this chassis (sb_readonly=0)
+2026-10-02T18:07:41.782Z|00205|binding|INFO|Claiming lport cr-lrp-46bdfba0-e0e4-4ee1-bb8d-273b8c469e80 for this chassis.
+2026-10-02T18:07:41.782Z|00206|binding|INFO|cr-lrp-46bdfba0-e0e4-4ee1-bb8d-273b8c469e80: Claiming fa:16:3e:54:b5:d9 172.24.5.202/24 2001:db8::25c/64
+2026-10-02T18:07:41.787Z|00207|binding|INFO|Setting lport cr-lrp-46bdfba0-e0e4-4ee1-bb8d-273b8c469e80 up in Southbound
+2026-10-02T18:07:42.859Z|00208|binding|INFO|Claiming lport 45cb351e-65f1-4f10-b96c-72305e5606de for this chassis.
+2026-10-02T18:07:42.859Z|00209|binding|INFO|45cb351e-65f1-4f10-b96c-72305e5606de: Claiming fa:16:3e:7e:f0:f0 10.1.0.9
+2026-10-02T18:07:42.867Z|00210|binding|INFO|Setting lport 45cb351e-65f1-4f10-b96c-72305e5606de ovn-installed in OVS
+2026-10-02T18:07:42.867Z|00211|binding|INFO|Setting lport 45cb351e-65f1-4f10-b96c-72305e5606de up in Southbound
+2026-10-02T18:07:44.189Z|00212|binding|INFO|Claiming lport cr-lrp-7d9b146b-1743-4e01-8aff-417f60d27321 for this chassis.
+2026-10-02T18:07:44.189Z|00213|binding|INFO|cr-lrp-7d9b146b-1743-4e01-8aff-417f60d27321: Claiming fa:16:3e:fd:ac:98 172.24.5.222/24 2001:db8::304/64
+2026-10-02T18:07:44.196Z|00214|binding|INFO|Setting lport cr-lrp-7d9b146b-1743-4e01-8aff-417f60d27321 up in Southbound
+2026-10-02T18:07:54.905Z|00028|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:7e:f0:f0 10.1.0.9
+2026-10-02T18:07:54.914Z|00029|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:7e:f0:f0 10.1.0.9
+2026-10-02T18:07:59.010Z|00215|binding|INFO|Claiming lport 5910caa2-de6d-4def-891e-5abdce325860 for this chassis.
+2026-10-02T18:07:59.010Z|00216|binding|INFO|5910caa2-de6d-4def-891e-5abdce325860: Claiming fa:16:3e:10:5d:f3 10.1.0.8
+2026-10-02T18:07:59.020Z|00217|binding|INFO|Setting lport 5910caa2-de6d-4def-891e-5abdce325860 ovn-installed in OVS
+2026-10-02T18:07:59.020Z|00218|binding|INFO|Setting lport 5910caa2-de6d-4def-891e-5abdce325860 up in Southbound
+2026-10-02T18:07:59.040Z|00219|binding|INFO|Claiming lport c7701a77-e684-4b03-8607-3f53f3eff3b5 for this chassis.
+2026-10-02T18:07:59.040Z|00220|binding|INFO|c7701a77-e684-4b03-8607-3f53f3eff3b5: Claiming fa:16:3e:75:cb:ff 10.1.1.103
+2026-10-02T18:07:59.048Z|00221|binding|INFO|Setting lport c7701a77-e684-4b03-8607-3f53f3eff3b5 ovn-installed in OVS
+2026-10-02T18:07:59.049Z|00222|binding|INFO|Setting lport c7701a77-e684-4b03-8607-3f53f3eff3b5 up in Southbound
+2026-10-02T18:07:59.068Z|00223|binding|INFO|Claiming lport 02166929-4bc0-420f-a29f-39ea5176f130 for this chassis.
+2026-10-02T18:07:59.068Z|00224|binding|INFO|02166929-4bc0-420f-a29f-39ea5176f130: Claiming fa:16:3e:93:9a:01 10.1.1.128
+2026-10-02T18:07:59.081Z|00225|binding|INFO|Setting lport 02166929-4bc0-420f-a29f-39ea5176f130 ovn-installed in OVS
+2026-10-02T18:07:59.081Z|00226|binding|INFO|Setting lport 02166929-4bc0-420f-a29f-39ea5176f130 up in Southbound
+2026-10-02T18:07:59.098Z|00227|binding|INFO|Claiming lport 48fe4a07-4081-4b2b-9cf9-6c6e50b1f224 for this chassis.
+2026-10-02T18:07:59.098Z|00228|binding|INFO|48fe4a07-4081-4b2b-9cf9-6c6e50b1f224: Claiming fa:16:3e:bf:75:60 10.1.1.52
+2026-10-02T18:07:59.105Z|00229|binding|INFO|Setting lport 48fe4a07-4081-4b2b-9cf9-6c6e50b1f224 ovn-installed in OVS
+2026-10-02T18:07:59.105Z|00230|binding|INFO|Setting lport 48fe4a07-4081-4b2b-9cf9-6c6e50b1f224 up in Southbound
+2026-10-02T18:07:59.136Z|00231|binding|INFO|Claiming lport fa583ba4-ba62-47b2-ac07-f94d845583b1 for this chassis.
+2026-10-02T18:07:59.136Z|00232|binding|INFO|fa583ba4-ba62-47b2-ac07-f94d845583b1: Claiming fa:16:3e:4c:fc:33 10.1.1.89
+2026-10-02T18:07:59.140Z|00233|binding|INFO|Setting lport fa583ba4-ba62-47b2-ac07-f94d845583b1 ovn-installed in OVS
+2026-10-02T18:07:59.140Z|00234|binding|INFO|Setting lport fa583ba4-ba62-47b2-ac07-f94d845583b1 up in Southbound
+2026-10-02T18:07:59.165Z|00235|binding|INFO|Claiming lport 15a5404b-65cf-4cd2-868e-571f53cca260 for this chassis.
+2026-10-02T18:07:59.165Z|00236|binding|INFO|15a5404b-65cf-4cd2-868e-571f53cca260: Claiming fa:16:3e:7b:2b:a6 10.2.2.100
+2026-10-02T18:07:59.175Z|00237|binding|INFO|Setting lport 15a5404b-65cf-4cd2-868e-571f53cca260 up in Southbound
+2026-10-02T18:07:59.175Z|00238|binding|INFO|Setting lport 15a5404b-65cf-4cd2-868e-571f53cca260 ovn-installed in OVS
+2026-10-02T18:07:59.198Z|00239|binding|INFO|Claiming lport 4b6e124f-472d-41fa-a540-b1e18c9c974c for this chassis.
+2026-10-02T18:07:59.198Z|00240|binding|INFO|4b6e124f-472d-41fa-a540-b1e18c9c974c: Claiming fa:16:3e:06:87:a3 10.2.2.200
+2026-10-02T18:07:59.203Z|00241|binding|INFO|Setting lport 4b6e124f-472d-41fa-a540-b1e18c9c974c up in Southbound
+2026-10-02T18:07:59.203Z|00242|binding|INFO|Setting lport 4b6e124f-472d-41fa-a540-b1e18c9c974c ovn-installed in OVS
+2026-10-02T18:07:59.334Z|00243|binding|INFO|Releasing lport 7251dc81-f6b8-448b-ae00-e71fe51343cc from this chassis (sb_readonly=0)
+2026-10-02T18:07:59.690Z|00244|binding|INFO|Releasing lport 46282217-2aea-4332-b181-557d16814c67 from this chassis (sb_readonly=0)
+2026-10-02T18:08:00.321Z|00245|binding|INFO|Releasing lport e8fdac85-9164-42d6-aa6d-cf149a1e8fdc from this chassis (sb_readonly=0)
+2026-10-02T18:08:11.472Z|00246|binding|INFO|Releasing lport 45cb351e-65f1-4f10-b96c-72305e5606de from this chassis (sb_readonly=0)
+2026-10-02T18:08:11.472Z|00247|binding|INFO|Setting lport 45cb351e-65f1-4f10-b96c-72305e5606de down in Southbound
+2026-10-02T18:08:11.474Z|00248|binding|INFO|Removing iface tap45cb351e-65 ovn-installed in OVS
+2026-10-02T18:08:15.783Z|00030|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:75:cb:ff 10.1.1.103
+2026-10-02T18:08:15.820Z|00031|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:75:cb:ff 10.1.1.103
+2026-10-02T18:08:15.868Z|00249|binding|INFO|Claiming lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 for this chassis.
+2026-10-02T18:08:15.868Z|00250|binding|INFO|1d03893c-9050-4e75-8edc-d29d0c6c0097: Claiming fa:16:3e:31:8a:47 10.1.0.12
+2026-10-02T18:08:15.878Z|00251|binding|INFO|Setting lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 ovn-installed in OVS
+2026-10-02T18:08:15.878Z|00252|binding|INFO|Setting lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 up in Southbound
+2026-10-02T18:08:16.620Z|00032|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:93:9a:01 10.1.1.128
+2026-10-02T18:08:16.624Z|00033|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:93:9a:01 10.1.1.128
+2026-10-02T18:08:16.913Z|00034|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:4c:fc:33 10.1.1.89
+2026-10-02T18:08:16.921Z|00035|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:4c:fc:33 10.1.1.89
+2026-10-02T18:08:17.267Z|00036|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:10:5d:f3 10.1.0.8
+2026-10-02T18:08:17.271Z|00037|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:10:5d:f3 10.1.0.8
+2026-10-02T18:08:17.424Z|00038|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:7b:2b:a6 10.2.2.100
+2026-10-02T18:08:17.436Z|00039|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:7b:2b:a6 10.2.2.100
+2026-10-02T18:08:17.558Z|00040|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:06:87:a3 10.2.2.200
+2026-10-02T18:08:17.564Z|00041|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:06:87:a3 10.2.2.200
+2026-10-02T18:08:17.595Z|00042|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:bf:75:60 10.1.1.52
+2026-10-02T18:08:17.602Z|00043|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:bf:75:60 10.1.1.52
+2026-10-02T18:08:19.932Z|00253|binding|INFO|Releasing lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 from this chassis (sb_readonly=0)
+2026-10-02T18:08:19.932Z|00254|binding|INFO|Setting lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 down in Southbound
+2026-10-02T18:08:19.933Z|00255|binding|INFO|Removing iface tap1d03893c-90 ovn-installed in OVS
+2026-10-02T18:08:21.631Z|00256|binding|INFO|Claiming lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 for this chassis.
+2026-10-02T18:08:21.631Z|00257|binding|INFO|1d03893c-9050-4e75-8edc-d29d0c6c0097: Claiming fa:16:3e:31:8a:47 10.1.0.12
+2026-10-02T18:08:21.644Z|00258|binding|INFO|Setting lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 ovn-installed in OVS
+2026-10-02T18:08:21.644Z|00259|binding|INFO|Setting lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 up in Southbound
+2026-10-02T18:08:34.426Z|00044|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:31:8a:47 10.1.0.12
+2026-10-02T18:08:34.435Z|00045|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:31:8a:47 10.1.0.12
+2026-10-02T18:08:40.555Z|00260|binding|INFO|Releasing lport 5910caa2-de6d-4def-891e-5abdce325860 from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.555Z|00261|binding|INFO|Setting lport 5910caa2-de6d-4def-891e-5abdce325860 down in Southbound
+2026-10-02T18:08:40.556Z|00262|binding|INFO|Removing iface tap5910caa2-de ovn-installed in OVS
+2026-10-02T18:08:40.584Z|00263|binding|INFO|Releasing lport c7701a77-e684-4b03-8607-3f53f3eff3b5 from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.584Z|00264|binding|INFO|Setting lport c7701a77-e684-4b03-8607-3f53f3eff3b5 down in Southbound
+2026-10-02T18:08:40.585Z|00265|binding|INFO|Removing iface tapc7701a77-e6 ovn-installed in OVS
+2026-10-02T18:08:40.617Z|00266|binding|INFO|Releasing lport 02166929-4bc0-420f-a29f-39ea5176f130 from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.617Z|00267|binding|INFO|Setting lport 02166929-4bc0-420f-a29f-39ea5176f130 down in Southbound
+2026-10-02T18:08:40.619Z|00268|binding|INFO|Removing iface tap02166929-4b ovn-installed in OVS
+2026-10-02T18:08:40.653Z|00269|binding|INFO|Releasing lport 48fe4a07-4081-4b2b-9cf9-6c6e50b1f224 from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.653Z|00270|binding|INFO|Setting lport 48fe4a07-4081-4b2b-9cf9-6c6e50b1f224 down in Southbound
+2026-10-02T18:08:40.655Z|00271|binding|INFO|Removing iface tap48fe4a07-40 ovn-installed in OVS
+2026-10-02T18:08:40.691Z|00272|binding|INFO|Releasing lport fa583ba4-ba62-47b2-ac07-f94d845583b1 from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.691Z|00273|binding|INFO|Setting lport fa583ba4-ba62-47b2-ac07-f94d845583b1 down in Southbound
+2026-10-02T18:08:40.692Z|00274|binding|INFO|Removing iface tapfa583ba4-ba ovn-installed in OVS
+2026-10-02T18:08:40.725Z|00275|binding|INFO|Releasing lport 15a5404b-65cf-4cd2-868e-571f53cca260 from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.725Z|00276|binding|INFO|Setting lport 15a5404b-65cf-4cd2-868e-571f53cca260 down in Southbound
+2026-10-02T18:08:40.726Z|00277|binding|INFO|Removing iface tap15a5404b-65 ovn-installed in OVS
+2026-10-02T18:08:40.763Z|00278|binding|INFO|Releasing lport 4b6e124f-472d-41fa-a540-b1e18c9c974c from this chassis (sb_readonly=0)
+2026-10-02T18:08:40.763Z|00279|binding|INFO|Setting lport 4b6e124f-472d-41fa-a540-b1e18c9c974c down in Southbound
+2026-10-02T18:08:40.764Z|00280|binding|INFO|Removing iface tap4b6e124f-47 ovn-installed in OVS
+2026-10-02T18:08:44.761Z|00281|binding|INFO|Releasing lport b7ea34df-6d7a-4ec0-b14e-4ed54cae19b1 from this chassis (sb_readonly=0)
+2026-10-02T18:08:46.238Z|00282|binding|INFO|Releasing lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 from this chassis (sb_readonly=0)
+2026-10-02T18:08:46.240Z|00283|binding|INFO|Setting lport 1d03893c-9050-4e75-8edc-d29d0c6c0097 down in Southbound
+2026-10-02T18:08:46.240Z|00284|binding|INFO|Removing iface tap1d03893c-90 ovn-installed in OVS
+2026-10-02T18:08:49.612Z|00285|binding|INFO|Releasing lport b7ea34df-6d7a-4ec0-b14e-4ed54cae19b1 from this chassis (sb_readonly=0)
+2026-10-02T18:08:50.682Z|00286|binding|INFO|Releasing lport 7b963c38-f883-433f-8f2f-8095490811df from this chassis (sb_readonly=0)
+2026-10-02T18:08:50.682Z|00287|binding|INFO|Setting lport 7b963c38-f883-433f-8f2f-8095490811df down in Southbound
+2026-10-02T18:08:50.683Z|00288|binding|INFO|Removing iface tap7b963c38-f8 ovn-installed in OVS
+2026-10-02T18:08:54.054Z|00289|binding|INFO|Claiming lport cr-lrp-89e44e21-9d52-444d-ba9c-484d377a169f for this chassis.
+2026-10-02T18:08:54.054Z|00290|binding|INFO|cr-lrp-89e44e21-9d52-444d-ba9c-484d377a169f: Claiming fa:16:3e:a7:68:bc 172.24.5.46/24 2001:db8::2e3/64
+2026-10-02T18:08:54.058Z|00291|binding|INFO|Setting lport cr-lrp-89e44e21-9d52-444d-ba9c-484d377a169f up in Southbound
+2026-10-02T18:08:55.339Z|00292|binding|INFO|Claiming lport cr-lrp-e2dba72b-7eee-43cc-a8c6-8f42455411ec for this chassis.
+2026-10-02T18:08:55.339Z|00293|binding|INFO|cr-lrp-e2dba72b-7eee-43cc-a8c6-8f42455411ec: Claiming fa:16:3e:b4:b2:d2 172.24.5.212/24 2001:db8::aa/64
+2026-10-02T18:08:55.343Z|00294|binding|INFO|Setting lport cr-lrp-e2dba72b-7eee-43cc-a8c6-8f42455411ec up in Southbound
+2026-10-02T18:08:57.856Z|00295|binding|INFO|Claiming lport eae8e437-8e98-46f3-bf19-6c3ab845938d for this chassis.
+2026-10-02T18:08:57.856Z|00296|binding|INFO|eae8e437-8e98-46f3-bf19-6c3ab845938d: Claiming fa:16:3e:cf:cc:e0 10.1.0.11
+2026-10-02T18:08:57.859Z|00297|binding|INFO|Setting lport eae8e437-8e98-46f3-bf19-6c3ab845938d ovn-installed in OVS
+2026-10-02T18:08:57.859Z|00298|binding|INFO|Setting lport eae8e437-8e98-46f3-bf19-6c3ab845938d up in Southbound
+2026-10-02T18:08:58.178Z|00299|binding|INFO|Releasing lport bf0da6f8-269d-49aa-b156-9c73466ffd0b from this chassis (sb_readonly=0)
+2026-10-02T18:08:59.148Z|00300|binding|INFO|Claiming lport 88159a4f-279f-4b47-9f1b-496f4c842531 for this chassis.
+2026-10-02T18:08:59.148Z|00301|binding|INFO|88159a4f-279f-4b47-9f1b-496f4c842531: Claiming fa:16:3e:d1:df:98 10.1.0.13
+2026-10-02T18:08:59.155Z|00302|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 ovn-installed in OVS
+2026-10-02T18:08:59.155Z|00303|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 up in Southbound
+2026-10-02T18:08:59.422Z|00304|binding|INFO|Releasing lport d85ead9b-7daa-4e2d-8d22-50707efdd774 from this chassis (sb_readonly=0)
+2026-10-02T18:09:11.967Z|00046|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:cf:cc:e0 10.1.0.11
+2026-10-02T18:09:11.978Z|00047|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:cf:cc:e0 10.1.0.11
+2026-10-02T18:09:12.140Z|00048|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:d1:df:98 10.1.0.13
+2026-10-02T18:09:12.148Z|00049|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:d1:df:98 10.1.0.13
+2026-10-02T18:09:12.728Z|00305|binding|INFO|Claiming lport 026a4bc3-ec06-412b-9b4d-c50030218596 for this chassis.
+2026-10-02T18:09:12.728Z|00306|binding|INFO|026a4bc3-ec06-412b-9b4d-c50030218596: Claiming fa:16:3e:3d:ae:c7 10.1.0.6
+2026-10-02T18:09:12.735Z|00307|binding|INFO|Setting lport 026a4bc3-ec06-412b-9b4d-c50030218596 ovn-installed in OVS
+2026-10-02T18:09:12.735Z|00308|binding|INFO|Setting lport 026a4bc3-ec06-412b-9b4d-c50030218596 up in Southbound
+2026-10-02T18:09:19.581Z|00309|binding|INFO|Claiming lport 5a02c9fa-657e-455b-a0ab-19b1074510c0 for this chassis.
+2026-10-02T18:09:19.581Z|00310|binding|INFO|5a02c9fa-657e-455b-a0ab-19b1074510c0: Claiming fa:16:3e:56:8e:79 10.1.0.9
+2026-10-02T18:09:19.586Z|00311|binding|INFO|Setting lport 5a02c9fa-657e-455b-a0ab-19b1074510c0 ovn-installed in OVS
+2026-10-02T18:09:19.586Z|00312|binding|INFO|Setting lport 5a02c9fa-657e-455b-a0ab-19b1074510c0 up in Southbound
+2026-10-02T18:09:27.995Z|00313|binding|INFO|Releasing lport 88159a4f-279f-4b47-9f1b-496f4c842531 from this chassis (sb_readonly=0)
+2026-10-02T18:09:27.995Z|00314|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 down in Southbound
+2026-10-02T18:09:27.996Z|00315|binding|INFO|Removing iface tap88159a4f-27 ovn-installed in OVS
+2026-10-02T18:09:29.369Z|00316|binding|INFO|Claiming lport c29ed35b-26cc-4812-886a-9f2914465d32 for this chassis.
+2026-10-02T18:09:29.369Z|00317|binding|INFO|c29ed35b-26cc-4812-886a-9f2914465d32: Claiming fa:16:3e:bf:f8:37 10.1.0.3
+2026-10-02T18:09:29.377Z|00318|binding|INFO|Setting lport c29ed35b-26cc-4812-886a-9f2914465d32 ovn-installed in OVS
+2026-10-02T18:09:29.377Z|00319|binding|INFO|Setting lport c29ed35b-26cc-4812-886a-9f2914465d32 up in Southbound
+2026-10-02T18:09:30.246Z|00320|binding|INFO|Claiming lport 88159a4f-279f-4b47-9f1b-496f4c842531 for this chassis.
+2026-10-02T18:09:30.246Z|00321|binding|INFO|88159a4f-279f-4b47-9f1b-496f4c842531: Claiming fa:16:3e:d1:df:98 10.1.0.13
+2026-10-02T18:09:30.255Z|00322|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 ovn-installed in OVS
+2026-10-02T18:09:30.255Z|00323|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 up in Southbound
+2026-10-02T18:09:30.632Z|00324|binding|INFO|Releasing lport d85ead9b-7daa-4e2d-8d22-50707efdd774 from this chassis (sb_readonly=0)
+2026-10-02T18:09:32.176Z|00325|binding|INFO|Releasing lport 88159a4f-279f-4b47-9f1b-496f4c842531 from this chassis (sb_readonly=0)
+2026-10-02T18:09:32.176Z|00326|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 down in Southbound
+2026-10-02T18:09:32.177Z|00327|binding|INFO|Removing iface tap88159a4f-27 ovn-installed in OVS
+2026-10-02T18:09:33.512Z|00050|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:56:8e:79 10.1.0.9
+2026-10-02T18:09:33.523Z|00051|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:56:8e:79 10.1.0.9
+2026-10-02T18:09:34.288Z|00328|binding|INFO|Claiming lport 88159a4f-279f-4b47-9f1b-496f4c842531 for this chassis.
+2026-10-02T18:09:34.288Z|00329|binding|INFO|88159a4f-279f-4b47-9f1b-496f4c842531: Claiming fa:16:3e:d1:df:98 10.1.0.13
+2026-10-02T18:09:34.297Z|00330|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 ovn-installed in OVS
+2026-10-02T18:09:34.297Z|00331|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 up in Southbound
+2026-10-02T18:09:34.481Z|00332|binding|INFO|Releasing lport c29ed35b-26cc-4812-886a-9f2914465d32 from this chassis (sb_readonly=0)
+2026-10-02T18:09:34.481Z|00333|binding|INFO|Setting lport c29ed35b-26cc-4812-886a-9f2914465d32 down in Southbound
+2026-10-02T18:09:34.482Z|00334|binding|INFO|Removing iface tapc29ed35b-26 ovn-installed in OVS
+2026-10-02T18:09:34.614Z|00335|binding|INFO|Releasing lport d85ead9b-7daa-4e2d-8d22-50707efdd774 from this chassis (sb_readonly=0)
+2026-10-02T18:09:35.767Z|00336|binding|INFO|Releasing lport 5a02c9fa-657e-455b-a0ab-19b1074510c0 from this chassis (sb_readonly=0)
+2026-10-02T18:09:35.767Z|00337|binding|INFO|Setting lport 5a02c9fa-657e-455b-a0ab-19b1074510c0 down in Southbound
+2026-10-02T18:09:35.767Z|00338|binding|INFO|Removing iface tap5a02c9fa-65 ovn-installed in OVS
+2026-10-02T18:09:36.969Z|00339|binding|INFO|Releasing lport 026a4bc3-ec06-412b-9b4d-c50030218596 from this chassis (sb_readonly=0)
+2026-10-02T18:09:36.969Z|00340|binding|INFO|Setting lport 026a4bc3-ec06-412b-9b4d-c50030218596 down in Southbound
+2026-10-02T18:09:36.970Z|00341|binding|INFO|Removing iface tap026a4bc3-ec ovn-installed in OVS
+2026-10-02T18:09:37.761Z|00342|binding|INFO|Releasing lport 88159a4f-279f-4b47-9f1b-496f4c842531 from this chassis (sb_readonly=0)
+2026-10-02T18:09:37.761Z|00343|binding|INFO|Setting lport 88159a4f-279f-4b47-9f1b-496f4c842531 down in Southbound
+2026-10-02T18:09:37.762Z|00344|binding|INFO|Removing iface tap88159a4f-27 ovn-installed in OVS
+2026-10-02T18:09:38.262Z|00345|binding|INFO|Releasing lport eae8e437-8e98-46f3-bf19-6c3ab845938d from this chassis (sb_readonly=0)
+2026-10-02T18:09:38.262Z|00346|binding|INFO|Setting lport eae8e437-8e98-46f3-bf19-6c3ab845938d down in Southbound
+2026-10-02T18:09:38.263Z|00347|binding|INFO|Removing iface tapeae8e437-8e ovn-installed in OVS
+2026-10-02T18:09:42.681Z|00348|binding|INFO|Claiming lport cr-lrp-f1532fee-fb5e-439c-bcdf-86e038ea6926 for this chassis.
+2026-10-02T18:09:42.681Z|00349|binding|INFO|cr-lrp-f1532fee-fb5e-439c-bcdf-86e038ea6926: Claiming fa:16:3e:c3:99:20 172.24.5.245/24 2001:db8::b/64
+2026-10-02T18:09:42.686Z|00350|binding|INFO|Setting lport cr-lrp-f1532fee-fb5e-439c-bcdf-86e038ea6926 up in Southbound
+2026-10-02T18:09:46.509Z|00351|binding|INFO|Claiming lport cr-lrp-26e07683-60f6-405b-bf2c-619b75f02309 for this chassis.
+2026-10-02T18:09:46.509Z|00352|binding|INFO|cr-lrp-26e07683-60f6-405b-bf2c-619b75f02309: Claiming fa:16:3e:26:8b:fc 172.24.5.153/24 2001:db8::158/64
+2026-10-02T18:09:46.512Z|00353|binding|INFO|Setting lport cr-lrp-26e07683-60f6-405b-bf2c-619b75f02309 up in Southbound
+2026-10-02T18:09:46.807Z|00354|binding|INFO|Claiming lport fd17e452-62aa-4770-85a9-91520cdabee7 for this chassis.
+2026-10-02T18:09:46.807Z|00355|binding|INFO|fd17e452-62aa-4770-85a9-91520cdabee7: Claiming fa:16:3e:fb:09:df 10.1.0.9
+2026-10-02T18:09:46.810Z|00356|binding|INFO|Setting lport fd17e452-62aa-4770-85a9-91520cdabee7 ovn-installed in OVS
+2026-10-02T18:09:46.811Z|00357|binding|INFO|Setting lport fd17e452-62aa-4770-85a9-91520cdabee7 up in Southbound
+2026-10-02T18:09:47.135Z|00358|binding|INFO|Releasing lport 042bf791-7f49-4e5f-ae13-f71d49fbbffe from this chassis (sb_readonly=0)
+2026-10-02T18:09:53.907Z|00359|binding|INFO|Claiming lport ec0b76c7-0629-4c40-9c64-82675fe73c12 for this chassis.
+2026-10-02T18:09:53.907Z|00360|binding|INFO|ec0b76c7-0629-4c40-9c64-82675fe73c12: Claiming fa:16:3e:bd:73:80 10.1.0.10
+2026-10-02T18:09:53.918Z|00361|binding|INFO|Setting lport ec0b76c7-0629-4c40-9c64-82675fe73c12 ovn-installed in OVS
+2026-10-02T18:09:53.918Z|00362|binding|INFO|Setting lport ec0b76c7-0629-4c40-9c64-82675fe73c12 up in Southbound
+2026-10-02T18:09:54.238Z|00363|binding|INFO|Releasing lport bde8982b-2c61-4860-b649-ee8d299b5a0e from this chassis (sb_readonly=0)
+2026-10-02T18:10:00.313Z|00052|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:fb:09:df 10.1.0.9
+2026-10-02T18:10:00.323Z|00053|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:fb:09:df 10.1.0.9
+2026-10-02T18:10:07.510Z|00054|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:bd:73:80 10.1.0.10
+2026-10-02T18:10:07.519Z|00055|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:bd:73:80 10.1.0.10
+2026-10-02T18:10:19.478Z|00364|binding|INFO|Releasing lport ec0b76c7-0629-4c40-9c64-82675fe73c12 from this chassis (sb_readonly=0)
+2026-10-02T18:10:19.478Z|00365|binding|INFO|Setting lport ec0b76c7-0629-4c40-9c64-82675fe73c12 down in Southbound
+2026-10-02T18:10:19.481Z|00366|binding|INFO|Removing iface tapec0b76c7-06 ovn-installed in OVS
+2026-10-02T18:10:23.369Z|00367|binding|INFO|Claiming lport ec0b76c7-0629-4c40-9c64-82675fe73c12 for this chassis.
+2026-10-02T18:10:23.369Z|00368|binding|INFO|ec0b76c7-0629-4c40-9c64-82675fe73c12: Claiming fa:16:3e:bd:73:80 10.1.0.10
+2026-10-02T18:10:23.375Z|00369|binding|INFO|Setting lport ec0b76c7-0629-4c40-9c64-82675fe73c12 ovn-installed in OVS
+2026-10-02T18:10:23.375Z|00370|binding|INFO|Setting lport ec0b76c7-0629-4c40-9c64-82675fe73c12 up in Southbound
+2026-10-02T18:10:23.742Z|00371|binding|INFO|Releasing lport bde8982b-2c61-4860-b649-ee8d299b5a0e from this chassis (sb_readonly=0)
+2026-10-02T18:10:31.129Z|00056|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:fb:09:df 10.1.0.9
+2026-10-02T18:10:35.844Z|00057|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:bd:73:80 10.1.0.10
+2026-10-02T18:10:35.865Z|00058|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:bd:73:80 10.1.0.10
+2026-10-02T18:10:40.795Z|00372|binding|INFO|Releasing lport fd17e452-62aa-4770-85a9-91520cdabee7 from this chassis (sb_readonly=0)
+2026-10-02T18:10:40.795Z|00373|binding|INFO|Setting lport fd17e452-62aa-4770-85a9-91520cdabee7 down in Southbound
+2026-10-02T18:10:40.796Z|00374|binding|INFO|Removing iface tapfd17e452-62 ovn-installed in OVS
+2026-10-02T18:10:44.493Z|00375|binding|INFO|Releasing lport bde8982b-2c61-4860-b649-ee8d299b5a0e from this chassis (sb_readonly=0)
+2026-10-02T18:10:45.174Z|00376|binding|INFO|Releasing lport ec0b76c7-0629-4c40-9c64-82675fe73c12 from this chassis (sb_readonly=0)
+2026-10-02T18:10:45.174Z|00377|binding|INFO|Setting lport ec0b76c7-0629-4c40-9c64-82675fe73c12 down in Southbound
+2026-10-02T18:10:45.176Z|00378|binding|INFO|Removing iface tapec0b76c7-06 ovn-installed in OVS
+2026-10-02T18:10:46.757Z|00379|binding|INFO|Claiming lport cr-lrp-0d4ea8a3-50ff-4a34-82a4-11da06c9b42e for this chassis.
+2026-10-02T18:10:46.757Z|00380|binding|INFO|cr-lrp-0d4ea8a3-50ff-4a34-82a4-11da06c9b42e: Claiming fa:16:3e:bd:cc:0d 172.24.5.102/24 2001:db8::da/64
+2026-10-02T18:10:46.760Z|00381|binding|INFO|Setting lport cr-lrp-0d4ea8a3-50ff-4a34-82a4-11da06c9b42e up in Southbound
+2026-10-02T18:10:51.480Z|00382|binding|INFO|Claiming lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 for this chassis.
+2026-10-02T18:10:51.480Z|00383|binding|INFO|4d38a0fe-3f70-4642-bea7-f06d0d770fd1: Claiming fa:16:3e:38:4d:e8 10.1.0.8
+2026-10-02T18:10:51.493Z|00384|binding|INFO|Setting lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 ovn-installed in OVS
+2026-10-02T18:10:51.493Z|00385|binding|INFO|Setting lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 up in Southbound
+2026-10-02T18:10:51.817Z|00386|binding|INFO|Releasing lport 0ea983df-f091-4b43-b158-c9f1803347e2 from this chassis (sb_readonly=0)
+2026-10-02T18:10:53.692Z|00387|binding|INFO|Claiming lport cr-lrp-ef08c618-9dd1-4d82-a26b-16607e88e593 for this chassis.
+2026-10-02T18:10:53.692Z|00388|binding|INFO|cr-lrp-ef08c618-9dd1-4d82-a26b-16607e88e593: Claiming fa:16:3e:49:ab:25 172.24.5.30/24 2001:db8::217/64
+2026-10-02T18:10:53.696Z|00389|binding|INFO|Setting lport cr-lrp-ef08c618-9dd1-4d82-a26b-16607e88e593 up in Southbound
+2026-10-02T18:10:56.966Z|00390|binding|INFO|Claiming lport 4c8fa707-c267-4689-ba48-73754a0d4e9c for this chassis.
+2026-10-02T18:10:56.966Z|00391|binding|INFO|4c8fa707-c267-4689-ba48-73754a0d4e9c: Claiming fa:16:3e:b9:f5:20 10.1.0.5
+2026-10-02T18:10:56.976Z|00392|binding|INFO|Setting lport 4c8fa707-c267-4689-ba48-73754a0d4e9c ovn-installed in OVS
+2026-10-02T18:10:56.976Z|00393|binding|INFO|Setting lport 4c8fa707-c267-4689-ba48-73754a0d4e9c up in Southbound
+2026-10-02T18:10:57.296Z|00394|binding|INFO|Releasing lport 0809475f-6ba4-4abc-a231-be2d2a78171c from this chassis (sb_readonly=0)
+2026-10-02T18:10:57.350Z|00395|binding|INFO|Claiming lport 3be46160-1946-4544-8502-a67223ff310a for this chassis.
+2026-10-02T18:10:57.350Z|00396|binding|INFO|3be46160-1946-4544-8502-a67223ff310a: Claiming fa:16:3e:f8:71:97 10.1.0.14
+2026-10-02T18:10:57.356Z|00397|binding|INFO|Setting lport 3be46160-1946-4544-8502-a67223ff310a ovn-installed in OVS
+2026-10-02T18:10:57.356Z|00398|binding|INFO|Setting lport 3be46160-1946-4544-8502-a67223ff310a up in Southbound
+2026-10-02T18:11:04.378Z|00059|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:38:4d:e8 10.1.0.8
+2026-10-02T18:11:04.390Z|00060|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:38:4d:e8 10.1.0.8
+2026-10-02T18:11:06.667Z|00399|binding|INFO|Claiming lport 95a80089-104e-4e5f-813c-b40804cbd006 for this chassis.
+2026-10-02T18:11:06.667Z|00400|binding|INFO|95a80089-104e-4e5f-813c-b40804cbd006: Claiming fa:16:3e:5f:af:62 10.1.0.3
+2026-10-02T18:11:06.677Z|00401|binding|INFO|Setting lport 95a80089-104e-4e5f-813c-b40804cbd006 ovn-installed in OVS
+2026-10-02T18:11:06.677Z|00402|binding|INFO|Setting lport 95a80089-104e-4e5f-813c-b40804cbd006 up in Southbound
+2026-10-02T18:11:11.444Z|00061|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:f8:71:97 10.1.0.14
+2026-10-02T18:11:11.455Z|00062|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f8:71:97 10.1.0.14
+2026-10-02T18:11:13.916Z|00063|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:b9:f5:20 10.1.0.5
+2026-10-02T18:11:13.934Z|00064|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:b9:f5:20 10.1.0.5
+2026-10-02T18:11:19.975Z|00065|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:5f:af:62 10.1.0.3
+2026-10-02T18:11:19.984Z|00066|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:5f:af:62 10.1.0.3
+2026-10-02T18:11:21.977Z|00403|binding|INFO|Releasing lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 from this chassis (sb_readonly=0)
+2026-10-02T18:11:21.977Z|00404|binding|INFO|Setting lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 down in Southbound
+2026-10-02T18:11:21.978Z|00405|binding|INFO|Removing iface tap4d38a0fe-3f ovn-installed in OVS
+2026-10-02T18:11:30.471Z|00406|binding|INFO|Claiming lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 for this chassis.
+2026-10-02T18:11:30.471Z|00407|binding|INFO|4d38a0fe-3f70-4642-bea7-f06d0d770fd1: Claiming fa:16:3e:38:4d:e8 10.1.0.8
+2026-10-02T18:11:30.481Z|00408|binding|INFO|Setting lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 ovn-installed in OVS
+2026-10-02T18:11:30.481Z|00409|binding|INFO|Setting lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 up in Southbound
+2026-10-02T18:11:30.812Z|00410|binding|INFO|Releasing lport 0ea983df-f091-4b43-b158-c9f1803347e2 from this chassis (sb_readonly=0)
+2026-10-02T18:11:41.903Z|00067|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:38:4d:e8 10.1.0.8
+2026-10-02T18:11:46.678Z|00068|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:5f:af:62 10.1.0.3
+2026-10-02T18:11:53.314Z|00411|binding|INFO|Releasing lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 from this chassis (sb_readonly=0)
+2026-10-02T18:11:53.314Z|00412|binding|INFO|Setting lport 4d38a0fe-3f70-4642-bea7-f06d0d770fd1 down in Southbound
+2026-10-02T18:11:53.315Z|00413|binding|INFO|Removing iface tap4d38a0fe-3f ovn-installed in OVS
+2026-10-02T18:11:57.092Z|00414|binding|INFO|Claiming lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 for this chassis.
+2026-10-02T18:11:57.092Z|00415|binding|INFO|bbee0dfc-7b59-47eb-9041-7faee2a8b4f6: Claiming fa:16:3e:84:c4:54 10.1.0.14
+2026-10-02T18:11:57.101Z|00416|binding|INFO|Setting lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 ovn-installed in OVS
+2026-10-02T18:11:57.101Z|00417|binding|INFO|Setting lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 up in Southbound
+2026-10-02T18:11:57.405Z|00418|binding|INFO|Releasing lport 0ea983df-f091-4b43-b158-c9f1803347e2 from this chassis (sb_readonly=0)
+2026-10-02T18:11:59.910Z|00419|binding|INFO|Releasing lport 95a80089-104e-4e5f-813c-b40804cbd006 from this chassis (sb_readonly=0)
+2026-10-02T18:11:59.910Z|00420|binding|INFO|Setting lport 95a80089-104e-4e5f-813c-b40804cbd006 down in Southbound
+2026-10-02T18:11:59.911Z|00421|binding|INFO|Removing iface tap95a80089-10 ovn-installed in OVS
+2026-10-02T18:12:03.480Z|00422|binding|INFO|Releasing lport 3be46160-1946-4544-8502-a67223ff310a from this chassis (sb_readonly=0)
+2026-10-02T18:12:03.480Z|00423|binding|INFO|Setting lport 3be46160-1946-4544-8502-a67223ff310a down in Southbound
+2026-10-02T18:12:03.480Z|00424|binding|INFO|Removing iface tap3be46160-19 ovn-installed in OVS
+2026-10-02T18:12:04.675Z|00425|binding|INFO|Releasing lport 4c8fa707-c267-4689-ba48-73754a0d4e9c from this chassis (sb_readonly=0)
+2026-10-02T18:12:04.675Z|00426|binding|INFO|Setting lport 4c8fa707-c267-4689-ba48-73754a0d4e9c down in Southbound
+2026-10-02T18:12:04.675Z|00427|binding|INFO|Removing iface tap4c8fa707-c2 ovn-installed in OVS
+2026-10-02T18:12:07.128Z|00428|binding|INFO|Releasing lport 0ea983df-f091-4b43-b158-c9f1803347e2 from this chassis (sb_readonly=0)
+2026-10-02T18:12:09.504Z|00429|binding|INFO|Claiming lport cr-lrp-35a4e566-1f0b-4a74-be39-90a5c5cc803c for this chassis.
+2026-10-02T18:12:09.504Z|00430|binding|INFO|cr-lrp-35a4e566-1f0b-4a74-be39-90a5c5cc803c: Claiming fa:16:3e:55:81:fd 172.24.5.180/24 2001:db8::5c/64
+2026-10-02T18:12:09.508Z|00431|binding|INFO|Setting lport cr-lrp-35a4e566-1f0b-4a74-be39-90a5c5cc803c up in Southbound
+2026-10-02T18:12:10.463Z|00069|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:84:c4:54 10.1.0.14
+2026-10-02T18:12:10.485Z|00070|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:84:c4:54 10.1.0.14
+2026-10-02T18:12:12.180Z|00432|binding|INFO|Claiming lport 047da9cc-f47d-41ec-9e1d-ab3fcccd465d for this chassis.
+2026-10-02T18:12:12.180Z|00433|binding|INFO|047da9cc-f47d-41ec-9e1d-ab3fcccd465d: Claiming fa:16:3e:90:70:1f 10.1.0.14
+2026-10-02T18:12:12.185Z|00434|binding|INFO|Setting lport 047da9cc-f47d-41ec-9e1d-ab3fcccd465d ovn-installed in OVS
+2026-10-02T18:12:12.185Z|00435|binding|INFO|Setting lport 047da9cc-f47d-41ec-9e1d-ab3fcccd465d up in Southbound
+2026-10-02T18:12:12.474Z|00436|binding|INFO|Releasing lport 1847528c-69a3-4519-a03d-9fec50f2e3e4 from this chassis (sb_readonly=0)
+2026-10-02T18:12:15.916Z|00437|binding|INFO|Claiming lport 29df6d32-9edd-47ea-8980-92909e035078 for this chassis.
+2026-10-02T18:12:15.916Z|00438|binding|INFO|29df6d32-9edd-47ea-8980-92909e035078: Claiming fa:16:3e:dc:3a:17 10.1.0.4
+2026-10-02T18:12:15.923Z|00439|binding|INFO|Setting lport 29df6d32-9edd-47ea-8980-92909e035078 ovn-installed in OVS
+2026-10-02T18:12:15.923Z|00440|binding|INFO|Setting lport 29df6d32-9edd-47ea-8980-92909e035078 up in Southbound
+2026-10-02T18:12:17.173Z|00441|binding|INFO|Releasing lport 29df6d32-9edd-47ea-8980-92909e035078 from this chassis (sb_readonly=0)
+2026-10-02T18:12:17.173Z|00442|binding|INFO|Setting lport 29df6d32-9edd-47ea-8980-92909e035078 down in Southbound
+2026-10-02T18:12:17.174Z|00443|binding|INFO|Removing iface tap29df6d32-9e ovn-installed in OVS
+2026-10-02T18:12:23.523Z|00444|binding|INFO|Releasing lport 047da9cc-f47d-41ec-9e1d-ab3fcccd465d from this chassis (sb_readonly=0)
+2026-10-02T18:12:23.523Z|00445|binding|INFO|Setting lport 047da9cc-f47d-41ec-9e1d-ab3fcccd465d down in Southbound
+2026-10-02T18:12:23.524Z|00446|binding|INFO|Removing iface tap047da9cc-f4 ovn-installed in OVS
+2026-10-02T18:12:25.268Z|00447|binding|INFO|Releasing lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 from this chassis (sb_readonly=0)
+2026-10-02T18:12:25.268Z|00448|binding|INFO|Setting lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 down in Southbound
+2026-10-02T18:12:25.269Z|00449|binding|INFO|Removing iface tapbbee0dfc-7b ovn-installed in OVS
+2026-10-02T18:12:29.705Z|00450|binding|INFO|Claiming lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 for this chassis.
+2026-10-02T18:12:29.705Z|00451|binding|INFO|bbee0dfc-7b59-47eb-9041-7faee2a8b4f6: Claiming fa:16:3e:84:c4:54 10.1.0.14
+2026-10-02T18:12:29.709Z|00452|binding|INFO|Setting lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 ovn-installed in OVS
+2026-10-02T18:12:29.709Z|00453|binding|INFO|Setting lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 up in Southbound
+2026-10-02T18:12:30.038Z|00454|binding|INFO|Releasing lport 0ea983df-f091-4b43-b158-c9f1803347e2 from this chassis (sb_readonly=0)
+2026-10-02T18:12:40.935Z|00071|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:84:c4:54 10.1.0.14
+2026-10-02T18:12:51.022Z|00455|binding|INFO|Releasing lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 from this chassis (sb_readonly=0)
+2026-10-02T18:12:51.022Z|00456|binding|INFO|Setting lport bbee0dfc-7b59-47eb-9041-7faee2a8b4f6 down in Southbound
+2026-10-02T18:12:51.023Z|00457|binding|INFO|Removing iface tapbbee0dfc-7b ovn-installed in OVS
+2026-10-02T18:12:55.993Z|00458|binding|INFO|Claiming lport 743a8f0d-f393-453d-b5df-552191985b19 for this chassis.
+2026-10-02T18:12:55.993Z|00459|binding|INFO|743a8f0d-f393-453d-b5df-552191985b19: Claiming fa:16:3e:42:5f:23 192.168.233.168
+2026-10-02T18:12:56.004Z|00460|binding|INFO|Setting lport 743a8f0d-f393-453d-b5df-552191985b19 ovn-installed in OVS
+2026-10-02T18:12:56.004Z|00461|binding|INFO|Setting lport 743a8f0d-f393-453d-b5df-552191985b19 up in Southbound
+2026-10-02T18:12:56.312Z|00462|binding|INFO|Releasing lport ac799906-ed5f-40bc-a84d-e035bffec6b1 from this chassis (sb_readonly=0)
+2026-10-02T18:12:57.885Z|00463|binding|INFO|Claiming lport cr-lrp-d874f5ca-6576-4f2c-9ac5-555bf120a793 for this chassis.
+2026-10-02T18:12:57.885Z|00464|binding|INFO|cr-lrp-d874f5ca-6576-4f2c-9ac5-555bf120a793: Claiming fa:16:3e:8c:e6:c6 172.24.5.128/24 2001:db8::21e/64
+2026-10-02T18:12:57.888Z|00465|binding|INFO|Setting lport cr-lrp-d874f5ca-6576-4f2c-9ac5-555bf120a793 up in Southbound
+2026-10-02T18:12:59.135Z|00466|binding|INFO|Releasing lport 743a8f0d-f393-453d-b5df-552191985b19 from this chassis (sb_readonly=0)
+2026-10-02T18:12:59.135Z|00467|binding|INFO|Setting lport 743a8f0d-f393-453d-b5df-552191985b19 down in Southbound
+2026-10-02T18:12:59.136Z|00468|binding|INFO|Removing iface tap743a8f0d-f3 ovn-installed in OVS
+2026-10-02T18:13:01.196Z|00469|binding|INFO|Claiming lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 for this chassis.
+2026-10-02T18:13:01.196Z|00470|binding|INFO|0d8202a7-e61d-4155-9f31-0335cd4947e5: Claiming fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:13:01.202Z|00471|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 ovn-installed in OVS
+2026-10-02T18:13:01.202Z|00472|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 up in Southbound
+2026-10-02T18:13:01.455Z|00473|binding|INFO|Releasing lport 287d46a4-0471-408b-9812-8847e0d4634b from this chassis (sb_readonly=0)
+2026-10-02T18:13:13.951Z|00072|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:13:13.961Z|00073|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:13:32.704Z|00474|binding|INFO|Releasing lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 from this chassis (sb_readonly=0)
+2026-10-02T18:13:32.704Z|00475|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 down in Southbound
+2026-10-02T18:13:32.705Z|00476|binding|INFO|Removing iface tap0d8202a7-e6 ovn-installed in OVS
+2026-10-02T18:13:36.740Z|00477|binding|INFO|Claiming lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 for this chassis.
+2026-10-02T18:13:36.741Z|00478|binding|INFO|0d8202a7-e61d-4155-9f31-0335cd4947e5: Claiming fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:13:36.746Z|00479|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 ovn-installed in OVS
+2026-10-02T18:13:36.746Z|00480|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 up in Southbound
+2026-10-02T18:13:37.051Z|00481|binding|INFO|Releasing lport 287d46a4-0471-408b-9812-8847e0d4634b from this chassis (sb_readonly=0)
+2026-10-02T18:13:45.775Z|00482|binding|INFO|Claiming lport cr-lrp-104f1e88-4480-46b0-a555-38ea5ebbe7c0 for this chassis.
+2026-10-02T18:13:45.775Z|00483|binding|INFO|cr-lrp-104f1e88-4480-46b0-a555-38ea5ebbe7c0: Claiming fa:16:3e:28:33:f7 172.24.5.87/24 2001:db8::143/64
+2026-10-02T18:13:45.782Z|00484|binding|INFO|Setting lport cr-lrp-104f1e88-4480-46b0-a555-38ea5ebbe7c0 up in Southbound
+2026-10-02T18:13:47.541Z|00074|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:13:47.957Z|00485|binding|INFO|Claiming lport cr-lrp-63b5b279-eddb-4440-964b-963d2a582ae6 for this chassis.
+2026-10-02T18:13:47.957Z|00486|binding|INFO|cr-lrp-63b5b279-eddb-4440-964b-963d2a582ae6: Claiming fa:16:3e:ae:9a:32 172.24.5.10/24 2001:db8::2d4/64
+2026-10-02T18:13:47.961Z|00487|binding|INFO|Setting lport cr-lrp-63b5b279-eddb-4440-964b-963d2a582ae6 up in Southbound
+2026-10-02T18:13:51.376Z|00488|binding|INFO|Claiming lport ad793c85-1084-43b9-b642-6facee541083 for this chassis.
+2026-10-02T18:13:51.376Z|00489|binding|INFO|ad793c85-1084-43b9-b642-6facee541083: Claiming fa:16:3e:47:c4:63 10.1.0.5
+2026-10-02T18:13:51.387Z|00490|binding|INFO|Setting lport ad793c85-1084-43b9-b642-6facee541083 ovn-installed in OVS
+2026-10-02T18:13:51.387Z|00491|binding|INFO|Setting lport ad793c85-1084-43b9-b642-6facee541083 up in Southbound
+2026-10-02T18:13:51.705Z|00492|binding|INFO|Releasing lport b4787953-ccab-42d4-b485-945c11dda63b from this chassis (sb_readonly=0)
+2026-10-02T18:13:55.458Z|00493|binding|INFO|Releasing lport ad793c85-1084-43b9-b642-6facee541083 from this chassis (sb_readonly=0)
+2026-10-02T18:13:55.458Z|00494|binding|INFO|Setting lport ad793c85-1084-43b9-b642-6facee541083 down in Southbound
+2026-10-02T18:13:55.459Z|00495|binding|INFO|Removing iface tapad793c85-10 ovn-installed in OVS
+2026-10-02T18:14:02.558Z|00496|binding|INFO|Releasing lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 from this chassis (sb_readonly=0)
+2026-10-02T18:14:02.558Z|00497|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 down in Southbound
+2026-10-02T18:14:02.559Z|00498|binding|INFO|Removing iface tap0d8202a7-e6 ovn-installed in OVS
+2026-10-02T18:14:02.998Z|00499|binding|INFO|Claiming lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 for this chassis.
+2026-10-02T18:14:02.998Z|00500|binding|INFO|0d8202a7-e61d-4155-9f31-0335cd4947e5: Claiming fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:14:03.003Z|00501|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 ovn-installed in OVS
+2026-10-02T18:14:03.003Z|00502|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 up in Southbound
+2026-10-02T18:14:03.357Z|00503|binding|INFO|Releasing lport 287d46a4-0471-408b-9812-8847e0d4634b from this chassis (sb_readonly=0)
+2026-10-02T18:14:12.463Z|00504|binding|INFO|Releasing lport 287d46a4-0471-408b-9812-8847e0d4634b from this chassis (sb_readonly=0)
+2026-10-02T18:14:13.979Z|00505|binding|INFO|Releasing lport 287d46a4-0471-408b-9812-8847e0d4634b from this chassis (sb_readonly=0)
+2026-10-02T18:14:14.296Z|00075|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f6:c0:66 10.1.0.4
+2026-10-02T18:14:23.706Z|00506|binding|INFO|Releasing lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 from this chassis (sb_readonly=0)
+2026-10-02T18:14:23.706Z|00507|binding|INFO|Setting lport 0d8202a7-e61d-4155-9f31-0335cd4947e5 down in Southbound
+2026-10-02T18:14:23.707Z|00508|binding|INFO|Removing iface tap0d8202a7-e6 ovn-installed in OVS
+2026-10-02T18:14:26.995Z|00509|binding|INFO|Claiming lport 1a254d17-879a-4995-a048-eadcc46eda9e for this chassis.
+2026-10-02T18:14:26.996Z|00510|binding|INFO|1a254d17-879a-4995-a048-eadcc46eda9e: Claiming fa:16:3e:98:98:47 10.1.0.9
+2026-10-02T18:14:27.006Z|00511|binding|INFO|Setting lport 1a254d17-879a-4995-a048-eadcc46eda9e ovn-installed in OVS
+2026-10-02T18:14:27.006Z|00512|binding|INFO|Setting lport 1a254d17-879a-4995-a048-eadcc46eda9e up in Southbound
+2026-10-02T18:14:27.300Z|00513|binding|INFO|Releasing lport 287d46a4-0471-408b-9812-8847e0d4634b from this chassis (sb_readonly=0)
+2026-10-02T18:14:38.749Z|00076|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:98:98:47 10.1.0.9
+2026-10-02T18:14:38.757Z|00077|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:98:98:47 10.1.0.9
+2026-10-02T18:14:58.297Z|00514|memory_trim|INFO|Detected inactivity (last active 30000 ms ago): trimming memory
+2026-10-02T18:14:59.847Z|00515|binding|INFO|Claiming lport cr-lrp-12c70413-eac1-458f-aa1b-5b99d6ee1902 for this chassis.
+2026-10-02T18:14:59.847Z|00516|binding|INFO|cr-lrp-12c70413-eac1-458f-aa1b-5b99d6ee1902: Claiming fa:16:3e:ca:e0:a5 172.24.5.100/24 2001:db8::2bb/64
+2026-10-02T18:14:59.853Z|00517|binding|INFO|Setting lport cr-lrp-12c70413-eac1-458f-aa1b-5b99d6ee1902 up in Southbound
+2026-10-02T18:15:04.333Z|00518|binding|INFO|Claiming lport 8318f416-be03-417c-b238-adb152e62700 for this chassis.
+2026-10-02T18:15:04.333Z|00519|binding|INFO|8318f416-be03-417c-b238-adb152e62700: Claiming fa:16:3e:1b:54:c2 10.1.0.11
+2026-10-02T18:15:04.342Z|00520|binding|INFO|Setting lport 8318f416-be03-417c-b238-adb152e62700 ovn-installed in OVS
+2026-10-02T18:15:04.342Z|00521|binding|INFO|Setting lport 8318f416-be03-417c-b238-adb152e62700 up in Southbound
+2026-10-02T18:15:04.681Z|00522|binding|INFO|Releasing lport 64287f02-fc9d-489b-aa5e-215d41c3103b from this chassis (sb_readonly=0)
+2026-10-02T18:15:05.416Z|00523|binding|INFO|Releasing lport 1a254d17-879a-4995-a048-eadcc46eda9e from this chassis (sb_readonly=0)
+2026-10-02T18:15:05.416Z|00524|binding|INFO|Setting lport 1a254d17-879a-4995-a048-eadcc46eda9e down in Southbound
+2026-10-02T18:15:05.417Z|00525|binding|INFO|Removing iface tap1a254d17-87 ovn-installed in OVS
+2026-10-02T18:15:05.726Z|00526|binding|INFO|Releasing lport 8318f416-be03-417c-b238-adb152e62700 from this chassis (sb_readonly=0)
+2026-10-02T18:15:05.726Z|00527|binding|INFO|Setting lport 8318f416-be03-417c-b238-adb152e62700 down in Southbound
+2026-10-02T18:15:05.726Z|00528|binding|INFO|Removing iface tap8318f416-be ovn-installed in OVS
+2026-10-02T18:15:08.420Z|00529|binding|INFO|Claiming lport ba43bf7a-b684-4832-9c30-8dec8acd1fb5 for this chassis.
+2026-10-02T18:15:08.420Z|00530|binding|INFO|ba43bf7a-b684-4832-9c30-8dec8acd1fb5: Claiming fa:16:3e:48:b9:5b 10.1.0.11
+2026-10-02T18:15:08.429Z|00531|binding|INFO|Setting lport ba43bf7a-b684-4832-9c30-8dec8acd1fb5 ovn-installed in OVS
+2026-10-02T18:15:08.429Z|00532|binding|INFO|Setting lport ba43bf7a-b684-4832-9c30-8dec8acd1fb5 up in Southbound
+2026-10-02T18:15:08.715Z|00533|binding|INFO|Releasing lport 64287f02-fc9d-489b-aa5e-215d41c3103b from this chassis (sb_readonly=0)
+2026-10-02T18:15:11.264Z|00534|binding|INFO|Releasing lport 64287f02-fc9d-489b-aa5e-215d41c3103b from this chassis (sb_readonly=0)
+2026-10-02T18:15:11.960Z|00535|binding|INFO|Releasing lport ba43bf7a-b684-4832-9c30-8dec8acd1fb5 from this chassis (sb_readonly=0)
+2026-10-02T18:15:11.960Z|00536|binding|INFO|Setting lport ba43bf7a-b684-4832-9c30-8dec8acd1fb5 down in Southbound
+2026-10-02T18:15:11.960Z|00537|binding|INFO|Removing iface tapba43bf7a-b6 ovn-installed in OVS
+2026-10-02T18:15:13.722Z|00538|binding|INFO|Claiming lport cr-lrp-a67050a6-612d-4576-b4fa-8d046934c876 for this chassis.
+2026-10-02T18:15:13.722Z|00539|binding|INFO|cr-lrp-a67050a6-612d-4576-b4fa-8d046934c876: Claiming fa:16:3e:f9:26:cf 172.24.5.108/24 2001:db8::2c4/64
+2026-10-02T18:15:13.731Z|00540|binding|INFO|Setting lport cr-lrp-a67050a6-612d-4576-b4fa-8d046934c876 up in Southbound
+2026-10-02T18:15:17.900Z|00541|binding|INFO|Claiming lport bf61dbc3-55ce-412c-8465-0291d1965f86 for this chassis.
+2026-10-02T18:15:17.900Z|00542|binding|INFO|bf61dbc3-55ce-412c-8465-0291d1965f86: Claiming fa:16:3e:56:bc:c1 10.1.0.10
+2026-10-02T18:15:17.907Z|00543|binding|INFO|Setting lport bf61dbc3-55ce-412c-8465-0291d1965f86 ovn-installed in OVS
+2026-10-02T18:15:17.907Z|00544|binding|INFO|Setting lport bf61dbc3-55ce-412c-8465-0291d1965f86 up in Southbound
+2026-10-02T18:15:18.352Z|00545|binding|INFO|Releasing lport ce2bfc3d-4657-492f-9f1c-ebbbe899cc0f from this chassis (sb_readonly=0)
+2026-10-02T18:15:30.662Z|00078|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:56:bc:c1 10.1.0.10
+2026-10-02T18:15:30.670Z|00079|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:56:bc:c1 10.1.0.10
+2026-10-02T18:15:34.459Z|00546|binding|INFO|Releasing lport ce2bfc3d-4657-492f-9f1c-ebbbe899cc0f from this chassis (sb_readonly=0)
+2026-10-02T18:15:46.894Z|00547|binding|INFO|Claiming lport cr-lrp-372df8e6-6ea0-441b-b949-6b073863c5cb for this chassis.
+2026-10-02T18:15:46.894Z|00548|binding|INFO|cr-lrp-372df8e6-6ea0-441b-b949-6b073863c5cb: Claiming fa:16:3e:05:40:fa 172.24.5.202/24 2001:db8::2f8/64
+2026-10-02T18:15:46.899Z|00549|binding|INFO|Setting lport cr-lrp-372df8e6-6ea0-441b-b949-6b073863c5cb up in Southbound
+2026-10-02T18:15:48.437Z|00550|binding|INFO|Claiming lport 323010c2-33e8-47f7-91bb-ddd94b780aac for this chassis.
+2026-10-02T18:15:48.437Z|00551|binding|INFO|323010c2-33e8-47f7-91bb-ddd94b780aac: Claiming fa:16:3e:2d:a4:a6 10.1.0.7
+2026-10-02T18:15:48.444Z|00552|binding|INFO|Setting lport 323010c2-33e8-47f7-91bb-ddd94b780aac ovn-installed in OVS
+2026-10-02T18:15:48.444Z|00553|binding|INFO|Setting lport 323010c2-33e8-47f7-91bb-ddd94b780aac up in Southbound
+2026-10-02T18:15:49.816Z|00554|binding|INFO|Claiming lport cr-lrp-b93d7768-ad66-4792-9827-22936bfc4f87 for this chassis.
+2026-10-02T18:15:49.816Z|00555|binding|INFO|cr-lrp-b93d7768-ad66-4792-9827-22936bfc4f87: Claiming fa:16:3e:89:bc:d4 172.24.5.138/24 2001:db8::8b/64
+2026-10-02T18:15:49.823Z|00556|binding|INFO|Setting lport cr-lrp-b93d7768-ad66-4792-9827-22936bfc4f87 up in Southbound
+2026-10-02T18:15:54.722Z|00557|binding|INFO|Claiming lport e0356dff-b360-428c-979b-2a9723b8f0ed for this chassis.
+2026-10-02T18:15:54.722Z|00558|binding|INFO|e0356dff-b360-428c-979b-2a9723b8f0ed: Claiming fa:16:3e:3e:3f:58 10.1.0.8
+2026-10-02T18:15:54.732Z|00559|binding|INFO|Setting lport e0356dff-b360-428c-979b-2a9723b8f0ed ovn-installed in OVS
+2026-10-02T18:15:54.732Z|00560|binding|INFO|Setting lport e0356dff-b360-428c-979b-2a9723b8f0ed up in Southbound
+2026-10-02T18:15:55.099Z|00561|binding|INFO|Releasing lport 9d7ed762-07f4-4f00-b030-6a8f83261918 from this chassis (sb_readonly=0)
+2026-10-02T18:16:02.189Z|00080|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:2d:a4:a6 10.1.0.7
+2026-10-02T18:16:02.196Z|00081|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:2d:a4:a6 10.1.0.7
+2026-10-02T18:16:07.783Z|00082|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:3e:3f:58 10.1.0.8
+2026-10-02T18:16:07.792Z|00083|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:3e:3f:58 10.1.0.8
+2026-10-02T18:16:13.459Z|00562|binding|INFO|Releasing lport 323010c2-33e8-47f7-91bb-ddd94b780aac from this chassis (sb_readonly=0)
+2026-10-02T18:16:13.459Z|00563|binding|INFO|Setting lport 323010c2-33e8-47f7-91bb-ddd94b780aac down in Southbound
+2026-10-02T18:16:13.459Z|00564|binding|INFO|Removing iface tap323010c2-33 ovn-installed in OVS
+2026-10-02T18:16:17.414Z|00565|binding|INFO|Releasing lport bf61dbc3-55ce-412c-8465-0291d1965f86 from this chassis (sb_readonly=0)
+2026-10-02T18:16:17.414Z|00566|binding|INFO|Setting lport bf61dbc3-55ce-412c-8465-0291d1965f86 down in Southbound
+2026-10-02T18:16:17.415Z|00567|binding|INFO|Removing iface tapbf61dbc3-55 ovn-installed in OVS
+2026-10-02T18:16:21.133Z|00568|binding|INFO|Claiming lport daa71cc0-da4b-40e4-9107-aa9828b8955e for this chassis.
+2026-10-02T18:16:21.133Z|00569|binding|INFO|daa71cc0-da4b-40e4-9107-aa9828b8955e: Claiming fa:16:3e:64:27:ad 10.1.0.11
+2026-10-02T18:16:21.136Z|00570|binding|INFO|Setting lport daa71cc0-da4b-40e4-9107-aa9828b8955e ovn-installed in OVS
+2026-10-02T18:16:21.136Z|00571|binding|INFO|Setting lport daa71cc0-da4b-40e4-9107-aa9828b8955e up in Southbound
+2026-10-02T18:16:21.504Z|00572|binding|INFO|Releasing lport ce2bfc3d-4657-492f-9f1c-ebbbe899cc0f from this chassis (sb_readonly=0)
+2026-10-02T18:16:26.064Z|00573|binding|INFO|Releasing lport e0356dff-b360-428c-979b-2a9723b8f0ed from this chassis (sb_readonly=0)
+2026-10-02T18:16:26.064Z|00574|binding|INFO|Setting lport e0356dff-b360-428c-979b-2a9723b8f0ed down in Southbound
+2026-10-02T18:16:26.065Z|00575|binding|INFO|Removing iface tape0356dff-b3 ovn-installed in OVS
+2026-10-02T18:16:29.850Z|00576|binding|INFO|Releasing lport ce2bfc3d-4657-492f-9f1c-ebbbe899cc0f from this chassis (sb_readonly=0)
+2026-10-02T18:16:31.443Z|00577|binding|INFO|Releasing lport ce2bfc3d-4657-492f-9f1c-ebbbe899cc0f from this chassis (sb_readonly=0)
+2026-10-02T18:16:33.576Z|00084|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:64:27:ad 10.1.0.11
+2026-10-02T18:16:33.585Z|00085|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:64:27:ad 10.1.0.11
+2026-10-02T18:16:52.569Z|00578|binding|INFO|Releasing lport daa71cc0-da4b-40e4-9107-aa9828b8955e from this chassis (sb_readonly=0)
+2026-10-02T18:16:52.569Z|00579|binding|INFO|Setting lport daa71cc0-da4b-40e4-9107-aa9828b8955e down in Southbound
+2026-10-02T18:16:52.569Z|00580|binding|INFO|Removing iface tapdaa71cc0-da ovn-installed in OVS
+2026-10-02T18:16:56.322Z|00581|binding|INFO|Claiming lport 477a073e-6701-4519-b3df-c4c4e3d97a58 for this chassis.
+2026-10-02T18:16:56.322Z|00582|binding|INFO|477a073e-6701-4519-b3df-c4c4e3d97a58: Claiming fa:16:3e:e9:1b:89 10.1.0.14
+2026-10-02T18:16:56.328Z|00583|binding|INFO|Setting lport 477a073e-6701-4519-b3df-c4c4e3d97a58 ovn-installed in OVS
+2026-10-02T18:16:56.328Z|00584|binding|INFO|Setting lport 477a073e-6701-4519-b3df-c4c4e3d97a58 up in Southbound
+2026-10-02T18:16:56.649Z|00585|binding|INFO|Releasing lport ce2bfc3d-4657-492f-9f1c-ebbbe899cc0f from this chassis (sb_readonly=0)
+2026-10-02T18:17:02.863Z|00586|binding|INFO|Claiming lport e0c76445-c4e5-44bd-8afe-7947db5337fc for this chassis.
+2026-10-02T18:17:02.863Z|00587|binding|INFO|e0c76445-c4e5-44bd-8afe-7947db5337fc: Claiming fa:16:3e:54:ed:17 192.168.233.247
+2026-10-02T18:17:02.883Z|00588|binding|INFO|Setting lport e0c76445-c4e5-44bd-8afe-7947db5337fc up in Southbound
+2026-10-02T18:17:02.884Z|00589|binding|INFO|Setting lport e0c76445-c4e5-44bd-8afe-7947db5337fc ovn-installed in OVS
+2026-10-02T18:17:03.241Z|00590|binding|INFO|Releasing lport ac799906-ed5f-40bc-a84d-e035bffec6b1 from this chassis (sb_readonly=0)
+2026-10-02T18:17:06.054Z|00591|binding|INFO|Releasing lport e0c76445-c4e5-44bd-8afe-7947db5337fc from this chassis (sb_readonly=0)
+2026-10-02T18:17:06.054Z|00592|binding|INFO|Setting lport e0c76445-c4e5-44bd-8afe-7947db5337fc down in Southbound
+2026-10-02T18:17:06.055Z|00593|binding|INFO|Removing iface tape0c76445-c4 ovn-installed in OVS
+2026-10-02T18:17:08.296Z|00086|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:e9:1b:89 10.1.0.14
+2026-10-02T18:17:08.304Z|00087|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:e9:1b:89 10.1.0.14
+2026-10-02T18:17:10.646Z|00594|binding|INFO|Claiming lport cr-lrp-8e481b79-b7c0-42ea-844f-66de77ebaddf for this chassis.
+2026-10-02T18:17:10.646Z|00595|binding|INFO|cr-lrp-8e481b79-b7c0-42ea-844f-66de77ebaddf: Claiming fa:16:3e:68:f7:01 172.24.5.253/24 2001:db8::e/64
+2026-10-02T18:17:10.650Z|00596|binding|INFO|Setting lport cr-lrp-8e481b79-b7c0-42ea-844f-66de77ebaddf up in Southbound
+2026-10-02T18:17:16.527Z|00597|binding|INFO|Claiming lport 688dafd3-9f0d-4535-9c0a-cd2956e4f07e for this chassis.
+2026-10-02T18:17:16.527Z|00598|binding|INFO|688dafd3-9f0d-4535-9c0a-cd2956e4f07e: Claiming fa:16:3e:36:3f:72 10.1.0.11
+2026-10-02T18:17:16.536Z|00599|binding|INFO|Setting lport 688dafd3-9f0d-4535-9c0a-cd2956e4f07e ovn-installed in OVS
+2026-10-02T18:17:16.536Z|00600|binding|INFO|Setting lport 688dafd3-9f0d-4535-9c0a-cd2956e4f07e up in Southbound
+2026-10-02T18:17:16.972Z|00601|binding|INFO|Releasing lport a2fb6f33-097c-41be-9410-317aeee9d92f from this chassis (sb_readonly=0)
+2026-10-02T18:17:27.442Z|00088|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:36:3f:72 10.1.0.11
+2026-10-02T18:17:27.451Z|00089|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:36:3f:72 10.1.0.11
+2026-10-02T18:17:29.452Z|00602|binding|INFO|Releasing lport 477a073e-6701-4519-b3df-c4c4e3d97a58 from this chassis (sb_readonly=0)
+2026-10-02T18:17:29.452Z|00603|binding|INFO|Setting lport 477a073e-6701-4519-b3df-c4c4e3d97a58 down in Southbound
+2026-10-02T18:17:29.453Z|00604|binding|INFO|Removing iface tap477a073e-67 ovn-installed in OVS
+2026-10-02T18:17:35.318Z|00605|binding|INFO|Releasing lport a2fb6f33-097c-41be-9410-317aeee9d92f from this chassis (sb_readonly=0)
+2026-10-02T18:17:49.863Z|00606|binding|INFO|Releasing lport 688dafd3-9f0d-4535-9c0a-cd2956e4f07e from this chassis (sb_readonly=0)
+2026-10-02T18:17:49.863Z|00607|binding|INFO|Setting lport 688dafd3-9f0d-4535-9c0a-cd2956e4f07e down in Southbound
+2026-10-02T18:17:49.864Z|00608|binding|INFO|Removing iface tap688dafd3-9f ovn-installed in OVS
+2026-10-02T18:17:57.871Z|00609|binding|INFO|Claiming lport 943855c6-6ab3-4a60-a83e-3e142998b383 for this chassis.
+2026-10-02T18:17:57.871Z|00610|binding|INFO|943855c6-6ab3-4a60-a83e-3e142998b383: Claiming fa:16:3e:d9:bb:26 10.1.0.14
+2026-10-02T18:17:57.881Z|00611|binding|INFO|Setting lport 943855c6-6ab3-4a60-a83e-3e142998b383 ovn-installed in OVS
+2026-10-02T18:17:57.881Z|00612|binding|INFO|Setting lport 943855c6-6ab3-4a60-a83e-3e142998b383 up in Southbound
+2026-10-02T18:17:58.234Z|00613|binding|INFO|Releasing lport a2fb6f33-097c-41be-9410-317aeee9d92f from this chassis (sb_readonly=0)
+2026-10-02T18:18:11.318Z|00090|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:d9:bb:26 10.1.0.14
+2026-10-02T18:18:11.325Z|00091|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:d9:bb:26 10.1.0.14
+2026-10-02T18:18:30.670Z|00614|memory_trim|INFO|Detected inactivity (last active 30003 ms ago): trimming memory
+2026-10-02T18:18:34.924Z|00615|binding|INFO|Releasing lport 943855c6-6ab3-4a60-a83e-3e142998b383 from this chassis (sb_readonly=0)
+2026-10-02T18:18:34.924Z|00616|binding|INFO|Setting lport 943855c6-6ab3-4a60-a83e-3e142998b383 down in Southbound
+2026-10-02T18:18:34.924Z|00617|binding|INFO|Removing iface tap943855c6-6a ovn-installed in OVS
+2026-10-02T18:19:03.988Z|00618|binding|INFO|Claiming lport cr-lrp-6f900115-bc47-476c-b0b0-acef35f3976e for this chassis.
+2026-10-02T18:19:03.989Z|00619|binding|INFO|cr-lrp-6f900115-bc47-476c-b0b0-acef35f3976e: Claiming fa:16:3e:32:6e:09 172.24.5.75/24 2001:db8::71/64
+2026-10-02T18:19:03.993Z|00620|binding|INFO|Setting lport cr-lrp-6f900115-bc47-476c-b0b0-acef35f3976e up in Southbound
+2026-10-02T18:19:06.601Z|00621|binding|INFO|Claiming lport cr-lrp-d4a979d1-7942-4776-891e-2ad1f89373b2 for this chassis.
+2026-10-02T18:19:06.601Z|00622|binding|INFO|cr-lrp-d4a979d1-7942-4776-891e-2ad1f89373b2: Claiming fa:16:3e:24:38:04 172.24.5.74/24 2001:db8::21d/64
+2026-10-02T18:19:06.607Z|00623|binding|INFO|Setting lport cr-lrp-d4a979d1-7942-4776-891e-2ad1f89373b2 up in Southbound
+2026-10-02T18:19:09.851Z|00624|binding|INFO|Claiming lport da049c74-ac97-4e18-8b89-2c431028d20e for this chassis.
+2026-10-02T18:19:09.851Z|00625|binding|INFO|da049c74-ac97-4e18-8b89-2c431028d20e: Claiming fa:16:3e:0e:df:68 10.1.0.10
+2026-10-02T18:19:09.858Z|00626|binding|INFO|Setting lport da049c74-ac97-4e18-8b89-2c431028d20e ovn-installed in OVS
+2026-10-02T18:19:09.858Z|00627|binding|INFO|Setting lport da049c74-ac97-4e18-8b89-2c431028d20e up in Southbound
+2026-10-02T18:19:10.210Z|00628|binding|INFO|Releasing lport 7bf07db8-6d74-421e-b247-60f53881452a from this chassis (sb_readonly=0)
+2026-10-02T18:19:22.683Z|00092|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:0e:df:68 10.1.0.10
+2026-10-02T18:19:22.690Z|00093|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:0e:df:68 10.1.0.10
+2026-10-02T18:19:36.007Z|00629|binding|INFO|Releasing lport da049c74-ac97-4e18-8b89-2c431028d20e from this chassis (sb_readonly=0)
+2026-10-02T18:19:36.007Z|00630|binding|INFO|Setting lport da049c74-ac97-4e18-8b89-2c431028d20e down in Southbound
+2026-10-02T18:19:36.007Z|00631|binding|INFO|Removing iface tapda049c74-ac ovn-installed in OVS
+2026-10-02T18:19:40.026Z|00632|binding|INFO|Claiming lport da049c74-ac97-4e18-8b89-2c431028d20e for this chassis.
+2026-10-02T18:19:40.026Z|00633|binding|INFO|da049c74-ac97-4e18-8b89-2c431028d20e: Claiming fa:16:3e:0e:df:68 10.1.0.10
+2026-10-02T18:19:40.031Z|00634|binding|INFO|Setting lport da049c74-ac97-4e18-8b89-2c431028d20e ovn-installed in OVS
+2026-10-02T18:19:40.031Z|00635|binding|INFO|Setting lport da049c74-ac97-4e18-8b89-2c431028d20e up in Southbound
+2026-10-02T18:19:40.446Z|00636|binding|INFO|Releasing lport 7bf07db8-6d74-421e-b247-60f53881452a from this chassis (sb_readonly=0)
+2026-10-02T18:19:50.360Z|00094|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:0e:df:68 10.1.0.10
+2026-10-02T18:20:06.946Z|00637|binding|INFO|Claiming lport cr-lrp-b7565dd5-f8d3-46b0-aa47-1ea6c9cda98a for this chassis.
+2026-10-02T18:20:06.946Z|00638|binding|INFO|cr-lrp-b7565dd5-f8d3-46b0-aa47-1ea6c9cda98a: Claiming fa:16:3e:55:83:ab 172.24.5.140/24 2001:db8::335/64
+2026-10-02T18:20:06.950Z|00639|binding|INFO|Setting lport cr-lrp-b7565dd5-f8d3-46b0-aa47-1ea6c9cda98a up in Southbound
+2026-10-02T18:20:07.514Z|00640|binding|INFO|Releasing lport da049c74-ac97-4e18-8b89-2c431028d20e from this chassis (sb_readonly=0)
+2026-10-02T18:20:07.514Z|00641|binding|INFO|Setting lport da049c74-ac97-4e18-8b89-2c431028d20e down in Southbound
+2026-10-02T18:20:07.515Z|00642|binding|INFO|Removing iface tapda049c74-ac ovn-installed in OVS
+2026-10-02T18:20:09.198Z|00643|binding|INFO|Claiming lport cr-lrp-313f4794-3747-4a96-b88a-d4c9bccdea29 for this chassis.
+2026-10-02T18:20:09.198Z|00644|binding|INFO|cr-lrp-313f4794-3747-4a96-b88a-d4c9bccdea29: Claiming fa:16:3e:ac:a5:41 172.24.5.228/24 2001:db8::f9/64
+2026-10-02T18:20:09.204Z|00645|binding|INFO|Setting lport cr-lrp-313f4794-3747-4a96-b88a-d4c9bccdea29 up in Southbound
+2026-10-02T18:20:10.864Z|00646|binding|INFO|Claiming lport 3452fb10-1f22-4813-a02e-2210a0203d29 for this chassis.
+2026-10-02T18:20:10.864Z|00647|binding|INFO|3452fb10-1f22-4813-a02e-2210a0203d29: Claiming fa:16:3e:51:1e:b5 10.1.0.7
+2026-10-02T18:20:10.874Z|00648|binding|INFO|Setting lport 3452fb10-1f22-4813-a02e-2210a0203d29 ovn-installed in OVS
+2026-10-02T18:20:10.874Z|00649|binding|INFO|Setting lport 3452fb10-1f22-4813-a02e-2210a0203d29 up in Southbound
+2026-10-02T18:20:11.239Z|00650|binding|INFO|Releasing lport 7bf07db8-6d74-421e-b247-60f53881452a from this chassis (sb_readonly=0)
+2026-10-02T18:20:18.739Z|00651|binding|INFO|Claiming lport fd758838-91b7-4652-bd04-1fe462371a36 for this chassis.
+2026-10-02T18:20:18.739Z|00652|binding|INFO|fd758838-91b7-4652-bd04-1fe462371a36: Claiming fa:16:3e:c1:86:49 10.1.0.7
+2026-10-02T18:20:18.747Z|00653|binding|INFO|Setting lport fd758838-91b7-4652-bd04-1fe462371a36 ovn-installed in OVS
+2026-10-02T18:20:18.747Z|00654|binding|INFO|Setting lport fd758838-91b7-4652-bd04-1fe462371a36 up in Southbound
+2026-10-02T18:20:19.104Z|00655|binding|INFO|Releasing lport e9ee6207-d52a-4a3b-b6e0-0a02ceb68a64 from this chassis (sb_readonly=0)
+2026-10-02T18:20:23.289Z|00095|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:51:1e:b5 10.1.0.7
+2026-10-02T18:20:23.297Z|00096|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:51:1e:b5 10.1.0.7
+2026-10-02T18:20:31.491Z|00097|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:c1:86:49 10.1.0.7
+2026-10-02T18:20:31.499Z|00098|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:c1:86:49 10.1.0.7
+2026-10-02T18:20:49.988Z|00099|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:51:1e:b5 10.1.0.7
+2026-10-02T18:20:51.090Z|00656|memory_trim|INFO|Detected inactivity (last active 30003 ms ago): trimming memory
+2026-10-02T18:21:01.977Z|00657|binding|INFO|Releasing lport fd758838-91b7-4652-bd04-1fe462371a36 from this chassis (sb_readonly=0)
+2026-10-02T18:21:01.977Z|00658|binding|INFO|Setting lport fd758838-91b7-4652-bd04-1fe462371a36 down in Southbound
+2026-10-02T18:21:01.978Z|00659|binding|INFO|Removing iface tapfd758838-91 ovn-installed in OVS
+2026-10-02T18:21:03.529Z|00660|binding|INFO|Releasing lport 3452fb10-1f22-4813-a02e-2210a0203d29 from this chassis (sb_readonly=0)
+2026-10-02T18:21:03.529Z|00661|binding|INFO|Setting lport 3452fb10-1f22-4813-a02e-2210a0203d29 down in Southbound
+2026-10-02T18:21:03.530Z|00662|binding|INFO|Removing iface tap3452fb10-1f ovn-installed in OVS
+2026-10-02T18:21:10.224Z|00663|binding|INFO|Claiming lport cr-lrp-86a896b3-4b76-438e-8d95-3c44165b3167 for this chassis.
+2026-10-02T18:21:10.224Z|00664|binding|INFO|cr-lrp-86a896b3-4b76-438e-8d95-3c44165b3167: Claiming fa:16:3e:a6:11:6e 172.24.5.52/24 2001:db8::2bd/64
+2026-10-02T18:21:10.227Z|00665|binding|INFO|Setting lport cr-lrp-86a896b3-4b76-438e-8d95-3c44165b3167 up in Southbound
+2026-10-02T18:21:12.611Z|00666|binding|INFO|Claiming lport cr-lrp-b519a61f-411d-4301-95f8-fe115810d7cd for this chassis.
+2026-10-02T18:21:12.611Z|00667|binding|INFO|cr-lrp-b519a61f-411d-4301-95f8-fe115810d7cd: Claiming fa:16:3e:69:82:a1 172.24.5.144/24 2001:db8::2ad/64
+2026-10-02T18:21:12.614Z|00668|binding|INFO|Setting lport cr-lrp-b519a61f-411d-4301-95f8-fe115810d7cd up in Southbound
+2026-10-02T18:21:12.916Z|00669|binding|INFO|Claiming lport cr-lrp-586845b9-d294-4f81-9f98-47e574a7b53e for this chassis.
+2026-10-02T18:21:12.916Z|00670|binding|INFO|cr-lrp-586845b9-d294-4f81-9f98-47e574a7b53e: Claiming fa:16:3e:54:32:e8 172.24.5.185/24 2001:db8::3bc/64
+2026-10-02T18:21:12.921Z|00671|binding|INFO|Setting lport cr-lrp-586845b9-d294-4f81-9f98-47e574a7b53e up in Southbound
+2026-10-02T18:21:15.345Z|00672|binding|INFO|Claiming lport cr-lrp-dc6876f2-171a-4289-af51-bf1f754f5752 for this chassis.
+2026-10-02T18:21:15.345Z|00673|binding|INFO|cr-lrp-dc6876f2-171a-4289-af51-bf1f754f5752: Claiming fa:16:3e:10:65:86 172.24.5.205/24 2001:db8::58/64
+2026-10-02T18:21:15.349Z|00674|binding|INFO|Setting lport cr-lrp-dc6876f2-171a-4289-af51-bf1f754f5752 up in Southbound
+2026-10-02T18:21:17.379Z|00675|binding|INFO|Claiming lport 299e228b-7b52-4963-b364-8f087da9b242 for this chassis.
+2026-10-02T18:21:17.379Z|00676|binding|INFO|299e228b-7b52-4963-b364-8f087da9b242: Claiming fa:16:3e:a3:c0:7a 10.1.0.5
+2026-10-02T18:21:17.385Z|00677|binding|INFO|Setting lport 299e228b-7b52-4963-b364-8f087da9b242 ovn-installed in OVS
+2026-10-02T18:21:17.385Z|00678|binding|INFO|Setting lport 299e228b-7b52-4963-b364-8f087da9b242 up in Southbound
+2026-10-02T18:21:17.807Z|00679|binding|INFO|Releasing lport ff8ab0d0-4623-4aa9-a1b9-a5bd95b1b3b0 from this chassis (sb_readonly=0)
+2026-10-02T18:21:22.936Z|00680|binding|INFO|Claiming lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 for this chassis.
+2026-10-02T18:21:22.936Z|00681|binding|INFO|a81b8756-400e-4cf0-a47b-ed5ec1232e95: Claiming fa:16:3e:f2:c9:42 10.1.0.12
+2026-10-02T18:21:22.942Z|00682|binding|INFO|Setting lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 ovn-installed in OVS
+2026-10-02T18:21:22.942Z|00683|binding|INFO|Setting lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 up in Southbound
+2026-10-02T18:21:23.304Z|00684|binding|INFO|Releasing lport ca6e9286-d7a1-424b-be8a-d6c85d0b6eb8 from this chassis (sb_readonly=0)
+2026-10-02T18:21:30.090Z|00100|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:a3:c0:7a 10.1.0.5
+2026-10-02T18:21:30.102Z|00101|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:a3:c0:7a 10.1.0.5
+2026-10-02T18:21:35.598Z|00102|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:f2:c9:42 10.1.0.12
+2026-10-02T18:21:35.606Z|00103|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f2:c9:42 10.1.0.12
+2026-10-02T18:21:51.879Z|00685|binding|INFO|Releasing lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 from this chassis (sb_readonly=0)
+2026-10-02T18:21:51.879Z|00686|binding|INFO|Setting lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 down in Southbound
+2026-10-02T18:21:51.879Z|00687|binding|INFO|Removing iface tapa81b8756-40 ovn-installed in OVS
+2026-10-02T18:21:51.977Z|00688|binding|INFO|Releasing lport 299e228b-7b52-4963-b364-8f087da9b242 from this chassis (sb_readonly=0)
+2026-10-02T18:21:51.977Z|00689|binding|INFO|Setting lport 299e228b-7b52-4963-b364-8f087da9b242 down in Southbound
+2026-10-02T18:21:51.977Z|00690|binding|INFO|Removing iface tap299e228b-7b ovn-installed in OVS
+2026-10-02T18:21:58.495Z|00691|binding|INFO|Claiming lport cr-lrp-042e7de5-476e-43bc-9b1f-5ccf0b5565dd for this chassis.
+2026-10-02T18:21:58.495Z|00692|binding|INFO|cr-lrp-042e7de5-476e-43bc-9b1f-5ccf0b5565dd: Claiming fa:16:3e:36:35:96 172.24.5.230/24 2001:db8::4b/64
+2026-10-02T18:21:58.502Z|00693|binding|INFO|Setting lport cr-lrp-042e7de5-476e-43bc-9b1f-5ccf0b5565dd up in Southbound
+2026-10-02T18:21:58.848Z|00694|binding|INFO|Claiming lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 for this chassis.
+2026-10-02T18:21:58.848Z|00695|binding|INFO|a81b8756-400e-4cf0-a47b-ed5ec1232e95: Claiming fa:16:3e:f2:c9:42 10.1.0.12
+2026-10-02T18:21:58.854Z|00696|binding|INFO|Setting lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 ovn-installed in OVS
+2026-10-02T18:21:58.854Z|00697|binding|INFO|Setting lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 up in Southbound
+2026-10-02T18:21:59.203Z|00698|binding|INFO|Releasing lport ca6e9286-d7a1-424b-be8a-d6c85d0b6eb8 from this chassis (sb_readonly=0)
+2026-10-02T18:22:01.211Z|00699|binding|INFO|Claiming lport cr-lrp-58ba45c1-90de-4acf-9e6a-97c6aba70503 for this chassis.
+2026-10-02T18:22:01.211Z|00700|binding|INFO|cr-lrp-58ba45c1-90de-4acf-9e6a-97c6aba70503: Claiming fa:16:3e:75:7d:fa 172.24.5.106/24 2001:db8::2aa/64
+2026-10-02T18:22:01.218Z|00701|binding|INFO|Setting lport cr-lrp-58ba45c1-90de-4acf-9e6a-97c6aba70503 up in Southbound
+2026-10-02T18:22:05.614Z|00702|binding|INFO|Claiming lport 5f437b90-6419-4399-811a-5ca0304dbc7b for this chassis.
+2026-10-02T18:22:05.614Z|00703|binding|INFO|5f437b90-6419-4399-811a-5ca0304dbc7b: Claiming fa:16:3e:61:d5:0f 10.1.0.8
+2026-10-02T18:22:05.617Z|00704|binding|INFO|Setting lport 5f437b90-6419-4399-811a-5ca0304dbc7b ovn-installed in OVS
+2026-10-02T18:22:05.617Z|00705|binding|INFO|Setting lport 5f437b90-6419-4399-811a-5ca0304dbc7b up in Southbound
+2026-10-02T18:22:05.944Z|00706|binding|INFO|Releasing lport 72f722b8-5f08-4770-8873-ca9694ca5b4a from this chassis (sb_readonly=0)
+2026-10-02T18:22:09.152Z|00104|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f2:c9:42 10.1.0.12
+2026-10-02T18:22:18.102Z|00105|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:61:d5:0f 10.1.0.8
+2026-10-02T18:22:18.110Z|00106|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:61:d5:0f 10.1.0.8
+2026-10-02T18:22:19.706Z|00707|binding|INFO|Releasing lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 from this chassis (sb_readonly=0)
+2026-10-02T18:22:19.706Z|00708|binding|INFO|Setting lport a81b8756-400e-4cf0-a47b-ed5ec1232e95 down in Southbound
+2026-10-02T18:22:19.707Z|00709|binding|INFO|Removing iface tapa81b8756-40 ovn-installed in OVS
+2026-10-02T18:22:24.191Z|00710|binding|INFO|Releasing lport 72f722b8-5f08-4770-8873-ca9694ca5b4a from this chassis (sb_readonly=0)
+2026-10-02T18:22:25.742Z|00711|binding|INFO|Releasing lport 72f722b8-5f08-4770-8873-ca9694ca5b4a from this chassis (sb_readonly=0)
+2026-10-02T18:22:28.084Z|00712|binding|INFO|Claiming lport cr-lrp-a2f69bae-9b5e-4036-8fea-aa3d0c64bba3 for this chassis.
+2026-10-02T18:22:28.084Z|00713|binding|INFO|cr-lrp-a2f69bae-9b5e-4036-8fea-aa3d0c64bba3: Claiming fa:16:3e:74:33:f3 172.24.5.73/24 2001:db8::395/64
+2026-10-02T18:22:28.089Z|00714|binding|INFO|Setting lport cr-lrp-a2f69bae-9b5e-4036-8fea-aa3d0c64bba3 up in Southbound
+2026-10-02T18:22:30.924Z|00715|binding|INFO|Claiming lport cr-lrp-340ce3c4-1d37-4fce-b3f3-9de0085c473e for this chassis.
+2026-10-02T18:22:30.924Z|00716|binding|INFO|cr-lrp-340ce3c4-1d37-4fce-b3f3-9de0085c473e: Claiming fa:16:3e:5d:49:7d 172.24.5.9/24 2001:db8::396/64
+2026-10-02T18:22:30.930Z|00717|binding|INFO|Setting lport cr-lrp-340ce3c4-1d37-4fce-b3f3-9de0085c473e up in Southbound
+2026-10-02T18:22:38.314Z|00718|binding|INFO|Releasing lport 5f437b90-6419-4399-811a-5ca0304dbc7b from this chassis (sb_readonly=0)
+2026-10-02T18:22:38.314Z|00719|binding|INFO|Setting lport 5f437b90-6419-4399-811a-5ca0304dbc7b down in Southbound
+2026-10-02T18:22:38.314Z|00720|binding|INFO|Removing iface tap5f437b90-64 ovn-installed in OVS
+2026-10-02T18:22:47.506Z|00721|binding|INFO|Claiming lport cr-lrp-096f65cd-0b73-4e64-acff-1b9fcc891259 for this chassis.
+2026-10-02T18:22:47.506Z|00722|binding|INFO|cr-lrp-096f65cd-0b73-4e64-acff-1b9fcc891259: Claiming fa:16:3e:f3:37:05 172.24.5.213/24 2001:db8::320/64
+2026-10-02T18:22:47.511Z|00723|binding|INFO|Setting lport cr-lrp-096f65cd-0b73-4e64-acff-1b9fcc891259 up in Southbound
+2026-10-02T18:22:50.056Z|00724|binding|INFO|Claiming lport cr-lrp-95a5931a-37c7-4ebb-aa9d-755c0cfec89b for this chassis.
+2026-10-02T18:22:50.056Z|00725|binding|INFO|cr-lrp-95a5931a-37c7-4ebb-aa9d-755c0cfec89b: Claiming fa:16:3e:aa:83:04 172.24.5.97/24 2001:db8::1e/64
+2026-10-02T18:22:50.060Z|00726|binding|INFO|Setting lport cr-lrp-95a5931a-37c7-4ebb-aa9d-755c0cfec89b up in Southbound
+2026-10-02T18:22:52.972Z|00727|binding|INFO|Claiming lport cr-lrp-e27c2cad-a14d-4142-9ccc-c794a771f5d1 for this chassis.
+2026-10-02T18:22:52.973Z|00728|binding|INFO|cr-lrp-e27c2cad-a14d-4142-9ccc-c794a771f5d1: Claiming fa:16:3e:a0:43:c3 172.24.5.221/24 2001:db8::17c/64
+2026-10-02T18:22:52.980Z|00729|binding|INFO|Setting lport cr-lrp-e27c2cad-a14d-4142-9ccc-c794a771f5d1 up in Southbound
+2026-10-02T18:22:54.070Z|00730|binding|INFO|Claiming lport 89da0f79-a6c8-4c04-8a21-25106742b554 for this chassis.
+2026-10-02T18:22:54.070Z|00731|binding|INFO|89da0f79-a6c8-4c04-8a21-25106742b554: Claiming fa:16:3e:61:63:c3 10.1.0.9
+2026-10-02T18:22:54.079Z|00732|binding|INFO|Setting lport 89da0f79-a6c8-4c04-8a21-25106742b554 ovn-installed in OVS
+2026-10-02T18:22:54.079Z|00733|binding|INFO|Setting lport 89da0f79-a6c8-4c04-8a21-25106742b554 up in Southbound
+2026-10-02T18:22:54.386Z|00734|binding|INFO|Releasing lport 143e998e-312a-4a49-99c8-76265b4b0f7d from this chassis (sb_readonly=0)
+2026-10-02T18:22:55.916Z|00735|binding|INFO|Claiming lport cr-lrp-b471a61c-1a8c-4269-8d91-f5f31332ab0a for this chassis.
+2026-10-02T18:22:55.916Z|00736|binding|INFO|cr-lrp-b471a61c-1a8c-4269-8d91-f5f31332ab0a: Claiming fa:16:3e:8a:66:da 172.24.5.237/24 2001:db8::11e/64
+2026-10-02T18:22:55.923Z|00737|binding|INFO|Setting lport cr-lrp-b471a61c-1a8c-4269-8d91-f5f31332ab0a up in Southbound
+2026-10-02T18:23:03.127Z|00738|binding|INFO|Claiming lport 188e8a38-ed07-4f66-ae28-e01433eb8be8 for this chassis.
+2026-10-02T18:23:03.127Z|00739|binding|INFO|188e8a38-ed07-4f66-ae28-e01433eb8be8: Claiming fa:16:3e:15:dd:08 10.1.0.3
+2026-10-02T18:23:03.134Z|00740|binding|INFO|Setting lport 188e8a38-ed07-4f66-ae28-e01433eb8be8 ovn-installed in OVS
+2026-10-02T18:23:03.134Z|00741|binding|INFO|Setting lport 188e8a38-ed07-4f66-ae28-e01433eb8be8 up in Southbound
+2026-10-02T18:23:03.456Z|00742|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:23:07.972Z|00107|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:61:63:c3 10.1.0.9
+2026-10-02T18:23:07.980Z|00108|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:61:63:c3 10.1.0.9
+2026-10-02T18:23:14.250Z|00109|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:15:dd:08 10.1.0.3
+2026-10-02T18:23:14.259Z|00110|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:15:dd:08 10.1.0.3
+2026-10-02T18:23:30.450Z|00743|binding|INFO|Claiming lport 46d85bbd-d465-4449-97c7-25b453d37787 for this chassis.
+2026-10-02T18:23:30.450Z|00744|binding|INFO|46d85bbd-d465-4449-97c7-25b453d37787: Claiming fa:16:3e:da:43:c8 10.1.0.3
+2026-10-02T18:23:30.463Z|00745|binding|INFO|Setting lport 46d85bbd-d465-4449-97c7-25b453d37787 ovn-installed in OVS
+2026-10-02T18:23:30.463Z|00746|binding|INFO|Setting lport 46d85bbd-d465-4449-97c7-25b453d37787 up in Southbound
+2026-10-02T18:23:32.022Z|00747|binding|INFO|Releasing lport 188e8a38-ed07-4f66-ae28-e01433eb8be8 from this chassis (sb_readonly=0)
+2026-10-02T18:23:32.022Z|00748|binding|INFO|Setting lport 188e8a38-ed07-4f66-ae28-e01433eb8be8 down in Southbound
+2026-10-02T18:23:32.023Z|00749|binding|INFO|Removing iface tap188e8a38-ed ovn-installed in OVS
+2026-10-02T18:23:42.337Z|00750|binding|INFO|Claiming lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd for this chassis.
+2026-10-02T18:23:42.337Z|00751|binding|INFO|6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd: Claiming fa:16:3e:ac:bc:67 10.1.0.14
+2026-10-02T18:23:42.343Z|00752|binding|INFO|Setting lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd ovn-installed in OVS
+2026-10-02T18:23:42.343Z|00753|binding|INFO|Setting lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd up in Southbound
+2026-10-02T18:23:42.624Z|00754|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:23:43.048Z|00111|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.9 does not match offer 10.1.0.3
+2026-10-02T18:23:43.048Z|00112|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:da:43:c8 10.1.0.3
+2026-10-02T18:23:47.453Z|00113|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.9 does not match offer 10.1.0.3
+2026-10-02T18:23:47.453Z|00114|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:da:43:c8 10.1.0.3
+2026-10-02T18:23:48.121Z|00115|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:da:43:c8 10.1.0.3
+2026-10-02T18:23:48.125Z|00116|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:da:43:c8 10.1.0.3
+2026-10-02T18:23:53.053Z|00117|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:ac:bc:67 10.1.0.14
+2026-10-02T18:23:53.062Z|00118|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:ac:bc:67 10.1.0.14
+2026-10-02T18:24:08.692Z|00755|binding|INFO|Releasing lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd from this chassis (sb_readonly=0)
+2026-10-02T18:24:08.692Z|00756|binding|INFO|Setting lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd down in Southbound
+2026-10-02T18:24:08.693Z|00757|binding|INFO|Removing iface tap6ad0697a-2d ovn-installed in OVS
+2026-10-02T18:24:11.480Z|00758|binding|INFO|Claiming lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd for this chassis.
+2026-10-02T18:24:11.480Z|00759|binding|INFO|6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd: Claiming fa:16:3e:ac:bc:67 10.1.0.14
+2026-10-02T18:24:11.489Z|00760|binding|INFO|Setting lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd ovn-installed in OVS
+2026-10-02T18:24:11.489Z|00761|binding|INFO|Setting lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd up in Southbound
+2026-10-02T18:24:11.804Z|00762|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:24:13.253Z|00763|binding|INFO|Releasing lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd from this chassis (sb_readonly=0)
+2026-10-02T18:24:13.253Z|00764|binding|INFO|Setting lport 6ad0697a-2d18-4ae7-bc3b-3e47cdfb56dd down in Southbound
+2026-10-02T18:24:13.253Z|00765|binding|INFO|Removing iface tap6ad0697a-2d ovn-installed in OVS
+2026-10-02T18:24:17.017Z|00766|binding|INFO|Releasing lport 46d85bbd-d465-4449-97c7-25b453d37787 from this chassis (sb_readonly=0)
+2026-10-02T18:24:17.017Z|00767|binding|INFO|Setting lport 46d85bbd-d465-4449-97c7-25b453d37787 down in Southbound
+2026-10-02T18:24:17.018Z|00768|binding|INFO|Removing iface tap46d85bbd-d4 ovn-installed in OVS
+2026-10-02T18:24:20.676Z|00769|binding|INFO|Releasing lport 89da0f79-a6c8-4c04-8a21-25106742b554 from this chassis (sb_readonly=0)
+2026-10-02T18:24:20.676Z|00770|binding|INFO|Setting lport 89da0f79-a6c8-4c04-8a21-25106742b554 down in Southbound
+2026-10-02T18:24:20.677Z|00771|binding|INFO|Removing iface tap89da0f79-a6 ovn-installed in OVS
+2026-10-02T18:24:24.793Z|00772|binding|INFO|Claiming lport 26610c88-6653-43ae-8fd2-124acc27077b for this chassis.
+2026-10-02T18:24:24.793Z|00773|binding|INFO|26610c88-6653-43ae-8fd2-124acc27077b: Claiming fa:16:3e:f4:ca:8b 10.1.0.7
+2026-10-02T18:24:24.800Z|00774|binding|INFO|Setting lport 26610c88-6653-43ae-8fd2-124acc27077b ovn-installed in OVS
+2026-10-02T18:24:24.800Z|00775|binding|INFO|Setting lport 26610c88-6653-43ae-8fd2-124acc27077b up in Southbound
+2026-10-02T18:24:25.093Z|00776|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:24:25.847Z|00777|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:24:26.403Z|00778|binding|INFO|Releasing lport 26610c88-6653-43ae-8fd2-124acc27077b from this chassis (sb_readonly=0)
+2026-10-02T18:24:26.403Z|00779|binding|INFO|Setting lport 26610c88-6653-43ae-8fd2-124acc27077b down in Southbound
+2026-10-02T18:24:26.404Z|00780|binding|INFO|Removing iface tap26610c88-66 ovn-installed in OVS
+2026-10-02T18:24:28.434Z|00781|binding|INFO|Claiming lport cr-lrp-b642395a-7aea-4822-a2ee-8bd35a5e808e for this chassis.
+2026-10-02T18:24:28.434Z|00782|binding|INFO|cr-lrp-b642395a-7aea-4822-a2ee-8bd35a5e808e: Claiming fa:16:3e:4e:3f:d2 172.24.5.202/24 2001:db8::2c6/64
+2026-10-02T18:24:28.441Z|00783|binding|INFO|Setting lport cr-lrp-b642395a-7aea-4822-a2ee-8bd35a5e808e up in Southbound
+2026-10-02T18:24:30.833Z|00784|binding|INFO|Claiming lport cr-lrp-43ac1b16-4122-4cfd-a6de-d9ce73d0421f for this chassis.
+2026-10-02T18:24:30.833Z|00785|binding|INFO|cr-lrp-43ac1b16-4122-4cfd-a6de-d9ce73d0421f: Claiming fa:16:3e:21:2a:c2 172.24.5.149/24 2001:db8::20/64
+2026-10-02T18:24:30.837Z|00786|binding|INFO|Setting lport cr-lrp-43ac1b16-4122-4cfd-a6de-d9ce73d0421f up in Southbound
+2026-10-02T18:24:37.351Z|00787|binding|INFO|Claiming lport 80b3ab00-3dcb-43a9-97c3-46ca22a800eb for this chassis.
+2026-10-02T18:24:37.351Z|00788|binding|INFO|80b3ab00-3dcb-43a9-97c3-46ca22a800eb: Claiming fa:16:3e:af:84:f5 10.1.0.8
+2026-10-02T18:24:37.354Z|00789|binding|INFO|Setting lport 80b3ab00-3dcb-43a9-97c3-46ca22a800eb ovn-installed in OVS
+2026-10-02T18:24:37.354Z|00790|binding|INFO|Setting lport 80b3ab00-3dcb-43a9-97c3-46ca22a800eb up in Southbound
+2026-10-02T18:24:37.404Z|00791|binding|INFO|Claiming lport db1c2f00-7125-48fa-9f02-6a61fafc1398 for this chassis.
+2026-10-02T18:24:37.404Z|00792|binding|INFO|db1c2f00-7125-48fa-9f02-6a61fafc1398: Claiming fa:16:3e:f2:3a:09 10.1.0.8
+2026-10-02T18:24:37.409Z|00793|binding|INFO|Setting lport db1c2f00-7125-48fa-9f02-6a61fafc1398 ovn-installed in OVS
+2026-10-02T18:24:37.409Z|00794|binding|INFO|Setting lport db1c2f00-7125-48fa-9f02-6a61fafc1398 up in Southbound
+2026-10-02T18:24:37.711Z|00795|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:24:38.015Z|00796|binding|INFO|Releasing lport 95361a51-2625-4fd1-9530-a4ac9fb542de from this chassis (sb_readonly=0)
+2026-10-02T18:24:48.552Z|00119|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:af:84:f5 10.1.0.8
+2026-10-02T18:24:48.561Z|00120|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:af:84:f5 10.1.0.8
+2026-10-02T18:24:51.327Z|00121|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:f2:3a:09 10.1.0.8
+2026-10-02T18:24:51.335Z|00122|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:f2:3a:09 10.1.0.8
+2026-10-02T18:25:04.528Z|00797|binding|INFO|Claiming lport 04bfbb54-68a1-4c45-9b20-bca018947b17 for this chassis.
+2026-10-02T18:25:04.528Z|00798|binding|INFO|04bfbb54-68a1-4c45-9b20-bca018947b17: Claiming fa:16:3e:6b:e6:f6 10.1.0.4
+2026-10-02T18:25:04.542Z|00799|binding|INFO|Setting lport 04bfbb54-68a1-4c45-9b20-bca018947b17 ovn-installed in OVS
+2026-10-02T18:25:04.542Z|00800|binding|INFO|Setting lport 04bfbb54-68a1-4c45-9b20-bca018947b17 up in Southbound
+2026-10-02T18:25:10.202Z|00801|binding|INFO|Claiming lport e4af23a9-468d-43d3-82a0-07c63dc50b47 for this chassis.
+2026-10-02T18:25:10.202Z|00802|binding|INFO|e4af23a9-468d-43d3-82a0-07c63dc50b47: Claiming fa:16:3e:30:40:59 10.1.0.5
+2026-10-02T18:25:10.216Z|00803|binding|INFO|Setting lport e4af23a9-468d-43d3-82a0-07c63dc50b47 ovn-installed in OVS
+2026-10-02T18:25:10.216Z|00804|binding|INFO|Setting lport e4af23a9-468d-43d3-82a0-07c63dc50b47 up in Southbound
+2026-10-02T18:25:14.970Z|00123|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.8 does not match offer 10.1.0.4
+2026-10-02T18:25:14.970Z|00124|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:6b:e6:f6 10.1.0.4
+2026-10-02T18:25:19.809Z|00125|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.8 does not match offer 10.1.0.4
+2026-10-02T18:25:19.809Z|00126|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:6b:e6:f6 10.1.0.4
+2026-10-02T18:25:20.053Z|00127|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:6b:e6:f6 10.1.0.4
+2026-10-02T18:25:20.058Z|00128|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:6b:e6:f6 10.1.0.4
+2026-10-02T18:25:21.544Z|00129|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.8 does not match offer 10.1.0.5
+2026-10-02T18:25:21.544Z|00130|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:30:40:59 10.1.0.5
+2026-10-02T18:25:25.680Z|00131|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.8 does not match offer 10.1.0.5
+2026-10-02T18:25:25.680Z|00132|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:30:40:59 10.1.0.5
+2026-10-02T18:25:26.630Z|00133|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:30:40:59 10.1.0.5
+2026-10-02T18:25:26.636Z|00134|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:30:40:59 10.1.0.5
+2026-10-02T18:25:32.294Z|00805|binding|INFO|Releasing lport 04bfbb54-68a1-4c45-9b20-bca018947b17 from this chassis (sb_readonly=0)
+2026-10-02T18:25:32.294Z|00806|binding|INFO|Setting lport 04bfbb54-68a1-4c45-9b20-bca018947b17 down in Southbound
+2026-10-02T18:25:32.295Z|00807|binding|INFO|Removing iface tap04bfbb54-68 ovn-installed in OVS
+2026-10-02T18:25:35.627Z|00808|binding|INFO|Releasing lport 80b3ab00-3dcb-43a9-97c3-46ca22a800eb from this chassis (sb_readonly=0)
+2026-10-02T18:25:35.627Z|00809|binding|INFO|Setting lport 80b3ab00-3dcb-43a9-97c3-46ca22a800eb down in Southbound
+2026-10-02T18:25:35.628Z|00810|binding|INFO|Removing iface tap80b3ab00-3d ovn-installed in OVS
+2026-10-02T18:25:40.747Z|00811|binding|INFO|Claiming lport 3540487e-a0ea-4269-af7e-fdf1dec3c653 for this chassis.
+2026-10-02T18:25:40.747Z|00812|binding|INFO|3540487e-a0ea-4269-af7e-fdf1dec3c653: Claiming fa:16:3e:31:0a:10 10.1.0.11
+2026-10-02T18:25:40.756Z|00813|binding|INFO|Setting lport 3540487e-a0ea-4269-af7e-fdf1dec3c653 ovn-installed in OVS
+2026-10-02T18:25:40.756Z|00814|binding|INFO|Setting lport 3540487e-a0ea-4269-af7e-fdf1dec3c653 up in Southbound
+2026-10-02T18:25:41.057Z|00815|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:25:51.237Z|00135|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:31:0a:10 10.1.0.11
+2026-10-02T18:25:51.250Z|00136|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:31:0a:10 10.1.0.11
+2026-10-02T18:25:52.574Z|00816|binding|INFO|Claiming lport 3cb903f0-989e-443f-9a88-01848059d947 for this chassis.
+2026-10-02T18:25:52.574Z|00817|binding|INFO|3cb903f0-989e-443f-9a88-01848059d947: Claiming fa:16:3e:03:2c:bb 10.1.0.3
+2026-10-02T18:25:52.582Z|00818|binding|INFO|Setting lport 3cb903f0-989e-443f-9a88-01848059d947 ovn-installed in OVS
+2026-10-02T18:25:52.582Z|00819|binding|INFO|Setting lport 3cb903f0-989e-443f-9a88-01848059d947 up in Southbound
+2026-10-02T18:26:03.767Z|00137|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.8 does not match offer 10.1.0.3
+2026-10-02T18:26:03.767Z|00138|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:03:2c:bb 10.1.0.3
+2026-10-02T18:26:05.778Z|00820|binding|INFO|Releasing lport 3540487e-a0ea-4269-af7e-fdf1dec3c653 from this chassis (sb_readonly=0)
+2026-10-02T18:26:05.778Z|00821|binding|INFO|Setting lport 3540487e-a0ea-4269-af7e-fdf1dec3c653 down in Southbound
+2026-10-02T18:26:05.779Z|00822|binding|INFO|Removing iface tap3540487e-a0 ovn-installed in OVS
+2026-10-02T18:26:07.334Z|00139|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:03:2c:bb 10.1.0.3
+2026-10-02T18:26:08.477Z|00823|binding|INFO|Claiming lport ab5e5916-beba-42fa-bcad-3559785d5c44 for this chassis.
+2026-10-02T18:26:08.477Z|00824|binding|INFO|ab5e5916-beba-42fa-bcad-3559785d5c44: Claiming fa:16:3e:8d:49:39 10.1.0.4
+2026-10-02T18:26:08.483Z|00825|binding|INFO|Setting lport ab5e5916-beba-42fa-bcad-3559785d5c44 ovn-installed in OVS
+2026-10-02T18:26:08.483Z|00826|binding|INFO|Setting lport ab5e5916-beba-42fa-bcad-3559785d5c44 up in Southbound
+2026-10-02T18:26:08.781Z|00827|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:26:08.870Z|00140|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:03:2c:bb 10.1.0.3
+2026-10-02T18:26:08.875Z|00141|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:03:2c:bb 10.1.0.3
+2026-10-02T18:26:18.513Z|00142|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:8d:49:39 10.1.0.4
+2026-10-02T18:26:20.880Z|00828|binding|INFO|Releasing lport 3cb903f0-989e-443f-9a88-01848059d947 from this chassis (sb_readonly=0)
+2026-10-02T18:26:20.880Z|00829|binding|INFO|Setting lport 3cb903f0-989e-443f-9a88-01848059d947 down in Southbound
+2026-10-02T18:26:20.880Z|00830|binding|INFO|Removing iface tap3cb903f0-98 ovn-installed in OVS
+2026-10-02T18:26:23.047Z|00143|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:8d:49:39 10.1.0.4
+2026-10-02T18:26:23.591Z|00144|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:8d:49:39 10.1.0.4
+2026-10-02T18:26:23.596Z|00145|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:8d:49:39 10.1.0.4
+2026-10-02T18:26:24.483Z|00831|binding|INFO|Releasing lport e4af23a9-468d-43d3-82a0-07c63dc50b47 from this chassis (sb_readonly=0)
+2026-10-02T18:26:24.483Z|00832|binding|INFO|Setting lport e4af23a9-468d-43d3-82a0-07c63dc50b47 down in Southbound
+2026-10-02T18:26:24.486Z|00833|binding|INFO|Removing iface tape4af23a9-46 ovn-installed in OVS
+2026-10-02T18:26:28.046Z|00834|binding|INFO|Releasing lport db1c2f00-7125-48fa-9f02-6a61fafc1398 from this chassis (sb_readonly=0)
+2026-10-02T18:26:28.046Z|00835|binding|INFO|Setting lport db1c2f00-7125-48fa-9f02-6a61fafc1398 down in Southbound
+2026-10-02T18:26:28.047Z|00836|binding|INFO|Removing iface tapdb1c2f00-71 ovn-installed in OVS
+2026-10-02T18:26:31.589Z|00837|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:26:33.173Z|00838|binding|INFO|Releasing lport a1a544f6-702d-4f73-ba5b-1a0e3c4dd95b from this chassis (sb_readonly=0)
+2026-10-02T18:26:40.304Z|00839|binding|INFO|Claiming lport 620c4b32-9d32-4ec1-b455-b5b884860b96 for this chassis.
+2026-10-02T18:26:40.304Z|00840|binding|INFO|620c4b32-9d32-4ec1-b455-b5b884860b96: Claiming fa:16:3e:76:98:58 10.1.0.11
+2026-10-02T18:26:40.312Z|00841|binding|INFO|Setting lport 620c4b32-9d32-4ec1-b455-b5b884860b96 ovn-installed in OVS
+2026-10-02T18:26:40.312Z|00842|binding|INFO|Setting lport 620c4b32-9d32-4ec1-b455-b5b884860b96 up in Southbound
+2026-10-02T18:26:51.415Z|00146|pinctrl(ovn_pinctrl0)|WARN|Dropped 3 log messages in last 44 seconds (most recently, 28 seconds ago) due to excessive rate
+2026-10-02T18:26:51.415Z|00147|pinctrl(ovn_pinctrl0)|WARN|DHCPREQUEST requested IP 10.1.0.4 does not match offer 10.1.0.11
+2026-10-02T18:26:51.415Z|00148|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:76:98:58 10.1.0.11
+2026-10-02T18:26:55.406Z|00149|pinctrl(ovn_pinctrl0)|INFO|DHCPNAK fa:16:3e:76:98:58 10.1.0.11
+2026-10-02T18:26:56.496Z|00150|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:76:98:58 10.1.0.11
+2026-10-02T18:26:56.501Z|00151|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:76:98:58 10.1.0.11
+2026-10-02T18:27:10.495Z|00843|binding|INFO|Releasing lport 620c4b32-9d32-4ec1-b455-b5b884860b96 from this chassis (sb_readonly=0)
+2026-10-02T18:27:10.495Z|00844|binding|INFO|Setting lport 620c4b32-9d32-4ec1-b455-b5b884860b96 down in Southbound
+2026-10-02T18:27:10.496Z|00845|binding|INFO|Removing iface tap620c4b32-9d ovn-installed in OVS
+2026-10-02T18:27:14.062Z|00846|binding|INFO|Releasing lport ab5e5916-beba-42fa-bcad-3559785d5c44 from this chassis (sb_readonly=0)
+2026-10-02T18:27:14.062Z|00847|binding|INFO|Setting lport ab5e5916-beba-42fa-bcad-3559785d5c44 down in Southbound
+2026-10-02T18:27:14.063Z|00848|binding|INFO|Removing iface tapab5e5916-be ovn-installed in OVS
+2026-10-02T18:27:37.911Z|00849|binding|INFO|Claiming lport cr-lrp-a86ffac2-4918-4125-9fc2-153f36fe8215 for this chassis.
+2026-10-02T18:27:37.911Z|00850|binding|INFO|cr-lrp-a86ffac2-4918-4125-9fc2-153f36fe8215: Claiming fa:16:3e:82:ad:23 172.24.5.225/24 2001:db8::1f4/64
+2026-10-02T18:27:37.915Z|00851|binding|INFO|Setting lport cr-lrp-a86ffac2-4918-4125-9fc2-153f36fe8215 up in Southbound
+2026-10-02T18:27:40.768Z|00852|binding|INFO|Claiming lport cr-lrp-29392c3c-a6c3-43f1-b005-d6abde5fbf8b for this chassis.
+2026-10-02T18:27:40.768Z|00853|binding|INFO|cr-lrp-29392c3c-a6c3-43f1-b005-d6abde5fbf8b: Claiming fa:16:3e:b6:27:cc 172.24.5.211/24 2001:db8::16c/64
+2026-10-02T18:27:40.772Z|00854|binding|INFO|Setting lport cr-lrp-29392c3c-a6c3-43f1-b005-d6abde5fbf8b up in Southbound
+2026-10-02T18:28:22.141Z|00855|memory_trim|INFO|Detected inactivity (last active 30002 ms ago): trimming memory
+2026-10-02T18:30:27.929Z|00856|binding|INFO|Claiming lport cr-lrp-da44acd8-610e-4ebe-87a4-db9340e51176 for this chassis.
+2026-10-02T18:30:27.929Z|00857|binding|INFO|cr-lrp-da44acd8-610e-4ebe-87a4-db9340e51176: Claiming fa:16:3e:75:5a:13 172.24.5.227/24 2001:db8::d/64
+2026-10-02T18:30:27.932Z|00858|binding|INFO|Setting lport cr-lrp-da44acd8-610e-4ebe-87a4-db9340e51176 up in Southbound
+2026-10-02T18:30:30.089Z|00859|binding|INFO|Claiming lport cr-lrp-df6ef30f-c0af-4f0d-9ca5-73ed7779c498 for this chassis.
+2026-10-02T18:30:30.089Z|00860|binding|INFO|cr-lrp-df6ef30f-c0af-4f0d-9ca5-73ed7779c498: Claiming fa:16:3e:d4:82:81 172.24.5.155/24 2001:db8::316/64
+2026-10-02T18:30:30.093Z|00861|binding|INFO|Setting lport cr-lrp-df6ef30f-c0af-4f0d-9ca5-73ed7779c498 up in Southbound
+2026-10-02T18:30:34.735Z|00862|binding|INFO|Claiming lport e35c9009-769e-44ed-a7c3-e4b05b52e536 for this chassis.
+2026-10-02T18:30:34.735Z|00863|binding|INFO|e35c9009-769e-44ed-a7c3-e4b05b52e536: Claiming fa:16:3e:39:89:23 10.1.0.9
+2026-10-02T18:30:34.746Z|00864|binding|INFO|Setting lport e35c9009-769e-44ed-a7c3-e4b05b52e536 ovn-installed in OVS
+2026-10-02T18:30:34.746Z|00865|binding|INFO|Setting lport e35c9009-769e-44ed-a7c3-e4b05b52e536 up in Southbound
+2026-10-02T18:30:35.032Z|00866|binding|INFO|Releasing lport 6ab9ae99-c79b-4ea8-8d26-0849d0ab54fc from this chassis (sb_readonly=0)
+2026-10-02T18:30:48.003Z|00152|pinctrl(ovn_pinctrl0)|INFO|DHCPOFFER fa:16:3e:39:89:23 10.1.0.9
+2026-10-02T18:30:48.011Z|00153|pinctrl(ovn_pinctrl0)|INFO|DHCPACK fa:16:3e:39:89:23 10.1.0.9
+2026-10-02T18:31:08.057Z|00867|memory_trim|INFO|Detected inactivity (last active 30002 ms ago): trimming memory
+2026-10-02T18:31:52.253Z|00868|binding|INFO|Releasing lport e35c9009-769e-44ed-a7c3-e4b05b52e536 from this chassis (sb_readonly=0)
+2026-10-02T18:31:52.253Z|00869|binding|INFO|Setting lport e35c9009-769e-44ed-a7c3-e4b05b52e536 down in Southbound
+2026-10-02T18:31:52.254Z|00870|binding|INFO|Removing iface tape35c9009-76 ovn-installed in OVS
+2026-10-02T18:32:26.554Z|00871|memory_trim|INFO|Detected inactivity (last active 30004 ms ago): trimming memory
