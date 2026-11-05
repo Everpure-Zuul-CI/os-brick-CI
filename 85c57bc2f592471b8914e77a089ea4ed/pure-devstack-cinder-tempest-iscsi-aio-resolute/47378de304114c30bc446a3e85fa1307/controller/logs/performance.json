@@ -1,0 +1,77 @@
+{
+  "services": [
+    {
+      "service": "apache2.service",
+      "MemoryCurrent": 6529024
+    }
+  ],
+  "db": [],
+  "processes": [
+    {
+      "cmd": "/usr/lib/erlang/erts-15.2.7.4/bin/beam.smp",
+      "pid": 21174,
+      "args": "-W w -MBas ageffcbf -MHas ageffcbf -MBlmbcs 512 -MHlmbcs 512 -MMmcs 30 -pc unicode -P 1048576 -t 5000000 -stbt db -zdbbl 128000 -sbwt none -sbwtdcpu none -sbwtdio none -- -root /usr/lib/erlang -bindir /usr/lib/erlang/erts-15.2.7.4/bin -progname erl -- -home /var/lib/rabbitmq -- -pa  -noshell -noinput -s rabbit boot -boot start_sasl -syslog logger [] -syslog syslog_error_logger false -kernel prevent_overlapping_partitions false --",
+      "rss": 110718976,
+      "rss_peak": 130912256,
+      "rss_anon": 65552384,
+      "swap": 0
+    },
+    {
+      "cmd": "/usr/lib/erlang/lib/os_mon-2.10.1/priv/bin/memsup",
+      "pid": 21217,
+      "args": "",
+      "rss": 1785856,
+      "rss_peak": 1785856,
+      "rss_anon": 90112,
+      "swap": 0
+    },
+    {
+      "cmd": "/usr/lib/erlang/lib/os_mon-2.10.1/priv/bin/cpu_sup",
+      "pid": 21218,
+      "args": "",
+      "rss": 1789952,
+      "rss_peak": 1789952,
+      "rss_anon": 94208,
+      "swap": 0
+    },
+    {
+      "cmd": "/usr/lib/erlang/erts-15.2.7.4/bin/inet_gethost",
+      "pid": 21220,
+      "args": "4",
+      "rss": 2322432,
+      "rss_peak": 2322432,
+      "rss_anon": 106496,
+      "swap": 0
+    },
+    {
+      "cmd": "/usr/lib/erlang/erts-15.2.7.4/bin/inet_gethost",
+      "pid": 21221,
+      "args": "4",
+      "rss": 1605632,
+      "rss_peak": 1605632,
+      "rss_anon": 126976,
+      "swap": 0
+    },
+    {
+      "cmd": "/usr/sbin/mysqld",
+      "pid": 22149,
+      "args": "",
+      "rss": 547540992,
+      "rss_peak": 547540992,
+      "rss_anon": 500350976,
+      "swap": 0
+    }
+  ],
+  "api": [],
+  "swap": {
+    "pswpin": 0,
+    "pswpout": 0,
+    "zswpin": 0,
+    "zswpout": 19
+  },
+  "report": {
+    "timestamp": "2026-11-05T06:36:13.538082",
+    "hostname": "np0000050156",
+    "version": 2
+  }
+}
