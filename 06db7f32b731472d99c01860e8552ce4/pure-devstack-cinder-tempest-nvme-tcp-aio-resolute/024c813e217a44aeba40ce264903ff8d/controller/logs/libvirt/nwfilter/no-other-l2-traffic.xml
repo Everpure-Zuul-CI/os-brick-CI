@@ -1,0 +1,11 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit no-other-l2-traffic
+or other application using the libvirt API.
+-->
+
+<filter name='no-other-l2-traffic' chain='root'>
+  <uuid>2a3f5543-aa81-4152-a986-0a82927442c6</uuid>
+  <rule action='drop' direction='inout' priority='1000'/>
+</filter>
